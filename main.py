@@ -19,8 +19,9 @@ import json
 import math
 import os
 import datetime
+import time
 
-class MainHandler(webapp2.RequestHandler):
+class ScheduleHandler(webapp2.RequestHandler):
 	def get(self):
 		if self.request.get_all("latitude") and self.request.get_all("longitude"):
 			latitude = float(self.request.get_all("latitude")[0])
@@ -31,66 +32,94 @@ class MainHandler(webapp2.RequestHandler):
 			if self.request.get_all("radius"):
 				radius = float(self.request.get_all("radius")[0])
 
-			stopsInRadius = self.findStopsInRadius(latitude, longitude, radius)
+			stops_in_Radius = self.find_stops_in_radius(latitude, longitude, radius)
 
-			stopsWithTimes = self.addTimesToStops(stopsInRadius)
+			stops_with_Times = self.add_times_to_stops(stops_in_Radius)
 
-			prettyResponse = json.dumps(stopsWithTimes, indent=4, sort_keys=True)
+			pretty_response = json.dumps(stops_with_Times, indent=4, sort_keys=True)
 
 			self.response.headers['Content-Type'] = 'application/json'
 
-			self.response.write(prettyResponse)
+			self.response.write(pretty_response)
 		else:
 			self.response.write('No lat/long :/')
 
 
-	def addTimesToStops(self, stops):
-		dayType = self.dayType()
+	def add_times_to_stops(self, stops):
+		day_type = self.day_type()
 
 		for stop in stops:
-			stopFilePath = 'data/stops/{0}/{1}.json'.format(dayType, stop["stopId"])
+			stop_file_path = 'data/stops/{0}/{1}.json'.format(day_type, stop["stop_id"])
 
-			json_data = open(stopFilePath)
+			json_data = open(stop_file_path)
 
-			data = json.load(json_data)
+			routes = json.load(json_data).values()
 
-			stop["routes"] = data.values()
+			stop["routes"] = self.add_current_times(routes)
 
 		return stops
 
-	def dayType(self):
-		weekDay = datetime.datetime.today().weekday()
+	def day_type(self):
 
-		if weekDay < 5:
-			dayType = "weekdays"
-		elif weekDay == 5:
-			dayType = "saturdays"
+		dateInfo = datetime.datetime.utcnow() - datetime.timedelta(hours=1)
+
+		weekday = dateInfo.weekday()
+
+		if weekday < 5:
+			day_type = "weekdays"
+		elif weekday == 5:
+			day_type = "saturdays"
 		else:
-			dayType = "sundays"
+			day_type = "sundays"
 
-		return dayType
+		return day_type
+
+	def add_current_times(self, routes):
+
+		date_min = datetime.datetime.utcnow() - datetime.timedelta(minutes=5)
+		date_max = date_min + datetime.timedelta(hours=2)
+		
+		min_mintues_into_the_day = date_min.hour * 60 + date_min.minute
+		max_mintues_into_the_day = date_max.hour * 60 + date_max.minute
+
+		for route in routes:
+			route["current_times"] = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
+
+		return routes
+
+	def find_curent_time(self, times, min_mintues_into_the_day, max_mintues_into_the_day):
+
+		for t, time in enumerate(times):
+			hour, minute = map(int, time.split(":"))
+
+			mintues_into_the_day = hour * 60 + minute
+
+			if mintues_into_the_day >= min_mintues_into_the_day and  mintues_into_the_day <= max_mintues_into_the_day :
+				return times[t:t+6]
+
+		return []
 
 
-	def findStopsInRadius(self, latitude, longitude, radius):
+	def find_stops_in_radius(self, latitude, longitude, radius):
 
 		json_data = open('data/allStops.json')
 
 		data = json.load(json_data)
 
-		stopsInRadius = []
+		stops_in_radius = []
 
 		for stop in data:
-			stopLatitude = stop["latitude"]
-			stopLongitude = stop["longitude"]
+			stop_latitude = stop["latitude"]
+			stop_longitude = stop["longitude"]
 
-			stopDistance = self.distance(latitude, longitude, stopLatitude, stopLongitude)
+			stop_distance = self.distance(latitude, longitude, stop_latitude, stop_longitude)
 
-			if(stopDistance < radius):
-				stop["distance"] = stopDistance
+			if(stop_distance < radius):
+				stop["distance"] = stop_distance
 
-				stopsInRadius.append(stop)
+				stops_in_radius.append(stop)
 
-		return sorted(stopsInRadius, key=lambda stop: stop["distance"])
+		return sorted(stops_in_radius, key=lambda stop: stop["distance"])
 
 
 	def distance(self, lat1, long1, lat2, long2):
@@ -121,10 +150,11 @@ class MainHandler(webapp2.RequestHandler):
 		# Remember to multiply arc by the radius of the earth 
 		# in your favorite set of units to get length.
 
-		earthRadiusInMeters = 6378100
-		return arc * earthRadiusInMeters
+		earth_radius_in_meters = 6378100
+		return arc * earth_radius_in_meters
 
 
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', ScheduleHandler),
+    ('/schedule', ScheduleHandler)
 ], debug=True)
