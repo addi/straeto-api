@@ -32,11 +32,11 @@ class ScheduleHandler(webapp2.RequestHandler):
 			if self.request.get_all("radius"):
 				radius = float(self.request.get_all("radius")[0])
 
-			stops_in_Radius = self.find_stops_in_radius(latitude, longitude, radius)
+			stops_in_radius = self.find_stops_in_radius(latitude, longitude, radius)
 
-			stops_with_Times = self.add_times_to_stops(stops_in_Radius)
+			# stops_with_Times = self.add_times_to_stops(stops_in_Radius)
 
-			pretty_response = json.dumps(stops_with_Times, indent=4, sort_keys=True)
+			pretty_response = json.dumps(stops_in_radius, indent=4, sort_keys=True)
 
 			self.response.headers['Content-Type'] = 'application/json'
 
@@ -44,20 +44,14 @@ class ScheduleHandler(webapp2.RequestHandler):
 		else:
 			self.response.write('No lat/long :/')
 
+	def add_time_to_stop(self, stop, day_type):
+		stop_file_path = 'data/stops/{0}/{1}.json'.format(day_type, stop["stop_id"])
 
-	def add_times_to_stops(self, stops):
-		day_type = self.day_type()
+		json_data = open(stop_file_path)
 
-		for stop in stops:
-			stop_file_path = 'data/stops/{0}/{1}.json'.format(day_type, stop["stop_id"])
+		routes = json.load(json_data).values()
 
-			json_data = open(stop_file_path)
-
-			routes = json.load(json_data).values()
-
-			stop["routes"] = self.add_current_times(routes)
-
-		return stops
+		stop["routes"] = self.add_current_times(routes)
 
 	def day_type(self):
 
@@ -82,8 +76,18 @@ class ScheduleHandler(webapp2.RequestHandler):
 		min_mintues_into_the_day = date_min.hour * 60 + date_min.minute
 		max_mintues_into_the_day = date_max.hour * 60 + date_max.minute
 
+		items_to_delete = []
+
 		for route in routes:
-			route["current_times"] = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
+			current_times = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
+
+			if current_times:
+				route["current_times"] = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
+			else:
+				items_to_delete.append(route)
+
+		for dr in items_to_delete:
+			routes.remove(dr)
 
 		return routes
 
@@ -94,13 +98,12 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 			mintues_into_the_day = hour * 60 + minute
 
-			if mintues_into_the_day >= min_mintues_into_the_day and  mintues_into_the_day <= max_mintues_into_the_day :
+			# max_mintues_into_the_day < min_mintues_into_the_day is a shitmix to fix timeframes that overlap midnight
+			if mintues_into_the_day >= min_mintues_into_the_day and (mintues_into_the_day <= max_mintues_into_the_day or max_mintues_into_the_day < min_mintues_into_the_day) :
 				return times[t:t+6]
 
-		return []
-
-
 	def find_stops_in_radius(self, latitude, longitude, radius):
+		day_type = self.day_type()
 
 		json_data = open('data/allStops.json')
 
@@ -117,7 +120,10 @@ class ScheduleHandler(webapp2.RequestHandler):
 			if(stop_distance < radius):
 				stop["distance"] = stop_distance
 
-				stops_in_radius.append(stop)
+				self.add_time_to_stop(stop, day_type)
+
+				if len(stop["routes"]) > 0:
+					stops_in_radius.append(stop)
 
 		return sorted(stops_in_radius, key=lambda stop: stop["distance"])
 
