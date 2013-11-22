@@ -47,11 +47,14 @@ class ScheduleHandler(webapp2.RequestHandler):
 	def add_time_to_stop(self, stop, day_type):
 		stop_file_path = 'data/stops/{0}/{1}.json'.format(day_type, stop["stop_id"])
 
-		json_data = open(stop_file_path)
+		if os.path.exists(stop_file_path):
+			json_data = open(stop_file_path)
 
-		routes = json.load(json_data).values()
+			routes = json.load(json_data).values()
 
-		stop["routes"] = self.add_current_times(routes)
+			routes = sorted(routes, key=lambda route: int(route["route"]))
+
+			stop["routes"] = self.add_current_times(routes)
 
 	def day_type(self):
 
@@ -122,7 +125,7 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 				self.add_time_to_stop(stop, day_type)
 
-				if len(stop["routes"]) > 0:
+				if "routes" in stop and len(stop["routes"]) > 0:
 					stops_in_radius.append(stop)
 
 		return sorted(stops_in_radius, key=lambda stop: stop["distance"])
