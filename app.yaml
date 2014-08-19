@@ -4,15 +4,17 @@ runtime: python27
 api_version: 1
 threadsafe: yes
 
-handlers:
+builtins:
+- remote_api: on
 
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+handlers:
 - url: /data
   static_dir: data
   application_readable: true
 
 - url: .*
   script: main.app
-
-libraries:
-- name: webapp2
-  version: "2.5.2"

@@ -21,8 +21,13 @@ import os
 import datetime
 import time
 
+from google.appengine.api import memcache
+
 class ScheduleHandler(webapp2.RequestHandler):
 	def get(self):
+		self.response.headers['Access-Control-Allow-Origin'] = '*'
+
+
 		if self.request.get_all("latitude") and self.request.get_all("longitude"):
 			latitude = float(self.request.get_all("latitude")[0])
 			longitude = float(self.request.get_all("longitude")[0])
@@ -34,45 +39,91 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 			stops_in_radius = self.find_stops_in_radius(latitude, longitude, radius)
 
-			# stops_with_Times = self.add_times_to_stops(stops_in_Radius)
-
 			pretty_response = json.dumps(stops_in_radius, indent=4, sort_keys=True)
 
-			self.response.headers['Content-Type'] = 'application/json'
+			self.response.headers['Content-Type'] = 'application/json'			
 
 			self.response.write(pretty_response)
+		elif self.request.get_all("flush_cache"):
+			flush_output = memcache.flush_all()
+
+			self.response.write(flush_output)
+
 		else:
 			self.response.write('No lat/long :/')
 
-	def add_time_to_stop(self, stop, day_type):
-		stop_file_path = 'data/stops/{0}/{1}.json'.format(day_type, stop["stop_id"])
+	def bus_date(self):
+		return datetime.datetime.utcnow() - datetime.timedelta(hours=1)
+
+	def day_type(self):
+
+		json_data = open('data/days.json')
+
+		data = json.load(json_data)
+
+		dateInfo = self.bus_date()
+
+		day_key = '{0}-{1:02d}-{2:02d}'.format(dateInfo.year, dateInfo.month, dateInfo.day)
+
+		# backup_day_type = (dateInfo.isoweekday() % 7) + 1
+
+		return data.get(day_key, 0)
+
+	def cache_time(self):
+		current_bus_day_time = self.bus_date()
+
+		cache_end_time = current_bus_day_time.replace(hour=0, minute=0, second=0, microsecond=0) + datetime.timedelta(hours=24)
+
+		seconds_to_midnight = (cache_end_time - current_bus_day_time).seconds
+
+		max_time = 60 * 60 * 6
+
+		return max(seconds_to_midnight, max_time)
+
+	def routes_for_stop(self, stop_id, day_type):
+
+		stop_folder = stop_id[:1]
+
+		stop_file_path = 'data/stops/{0}/{1}.json'.format(stop_folder, stop_id)
+
+		print stop_file_path
 
 		if os.path.exists(stop_file_path):
 			json_data = open(stop_file_path)
 
 			routes = json.load(json_data).values()
 
-			routes = sorted(routes, key=lambda route: int(route["route"]))
+			for route in routes:
 
-			stop["routes"] = self.add_current_times(routes)
+				for route_day_type in route["day_types"]:
+					if day_type in route_day_type["day_types"]:
+						route["times"] = route_day_type["times"]
 
-	def day_type(self):
+				if route.get("times", None) == None:
+					print "times not found"
+					print route
+					print "########"
 
-		dateInfo = datetime.datetime.utcnow() - datetime.timedelta(hours=1)
+				del route["day_types"]
 
-		weekday = dateInfo.weekday()
-
-		if weekday < 5:
-			day_type = "weekdays"
-		elif weekday == 5:
-			day_type = "saturdays"
+			return routes
 		else:
-			day_type = "sundays"
+			return []
 
-		return day_type
+	# def add_time_to_stop(self, stop, day_type):
+	# 	stop_file_path = 'data/stops/{0}.json'.format(stop["stop_id"])
+
+	# 	if os.path.exists(stop_file_path):
+	# 		json_data = open(stop_file_path)
+
+	# 		routes = json.load(json_data).values()
+
+	# 		routes = sorted(routes, key=lambda route: int(route["route"]))
+
+	# 		stop["routes"] = self.add_current_times(routes)
+
 
 	def add_current_times(self, routes):
-
 		date_min = datetime.datetime.utcnow() - datetime.timedelta(minutes=5)
 		date_max = date_min + datetime.timedelta(hours=2)
 		
@@ -82,6 +133,10 @@ class ScheduleHandler(webapp2.RequestHandler):
 		items_to_delete = []
 
 		for route in routes:
+			# print "############"
+			# print route
+			# print "############"
+
 			current_times = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
 
 			if current_times:
@@ -106,15 +161,34 @@ class ScheduleHandler(webapp2.RequestHandler):
 				return times[t:t+6]
 
 	def find_stops_in_radius(self, latitude, longitude, radius):
-		day_type = self.day_type()
 
-		json_data = open('data/allStops.json')
+		cahcedInfo = memcache.get_multi(["day_type", "stops"])
 
-		data = json.load(json_data)
+		day_type = cahcedInfo.get("day_type", None)
+
+		if day_type is None:
+			print "day type is none!"
+
+			day_type = self.day_type()
+
+			memcache.add(key="day_type", value=day_type, time=self.cache_time())
+
+		if day_type == 0:
+			return []
+
+		stops = cahcedInfo.get("stops", None)
+
+		if stops is None:
+			json_data = open('data/stops.json')
+
+			stops = json.load(json_data)
+
+			memcache.add(key="stops", value=stops)
 
 		stops_in_radius = []
+		stop_in_radius_keys = []
 
-		for stop in data:
+		for stop in stops:
 			stop_latitude = stop["latitude"]
 			stop_longitude = stop["longitude"]
 
@@ -123,13 +197,32 @@ class ScheduleHandler(webapp2.RequestHandler):
 			if(stop_distance < radius):
 				stop["distance"] = stop_distance
 
-				self.add_time_to_stop(stop, day_type)
+				stop["key"] = 'stop_{0}_{1}'.format(stop["id"], day_type)
 
-				if "routes" in stop and len(stop["routes"]) > 0:
-					stops_in_radius.append(stop)
+				stops_in_radius.append(stop)
+				stop_in_radius_keys.append(stop["key"])
+
+		stops_in_radius_routes = memcache.get_multi(stop_in_radius_keys)
+
+		for stop in stops_in_radius:
+
+			stop_routes = stops_in_radius_routes.get(stop["key"], None)
+
+			if stop_routes is None:
+				stop_routes = self.routes_for_stop(stop["id"], day_type)
+
+				memcache.add(key=stop["key"], value=stop_routes)
+
+			print stop["id"]
+
+			if stop["id"] == "90000295":
+				print stop
+				print stop_routes
+				# print stop_routes
+
+			stop["routes"] = self.add_current_times(stop_routes)
 
 		return sorted(stops_in_radius, key=lambda stop: stop["distance"])
-
 
 	def distance(self, lat1, long1, lat2, long2):
 
@@ -160,7 +253,10 @@ class ScheduleHandler(webapp2.RequestHandler):
 		# in your favorite set of units to get length.
 
 		earth_radius_in_meters = 6378100
-		return arc * earth_radius_in_meters
+
+		distance = int(arc * earth_radius_in_meters)
+		
+		return distance
 
 
 app = webapp2.WSGIApplication([
