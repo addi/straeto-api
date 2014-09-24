@@ -27,7 +27,6 @@ class ScheduleHandler(webapp2.RequestHandler):
 	def get(self):
 		self.response.headers['Access-Control-Allow-Origin'] = '*'
 
-
 		if self.request.get_all("latitude") and self.request.get_all("longitude"):
 			latitude = float(self.request.get_all("latitude")[0])
 			longitude = float(self.request.get_all("longitude")[0])
@@ -81,46 +80,32 @@ class ScheduleHandler(webapp2.RequestHandler):
 		return max(seconds_to_midnight, max_time)
 
 	def routes_for_stop(self, stop_id, day_type):
-
 		stop_folder = stop_id[:1]
 
 		stop_file_path = 'data/stops/{0}/{1}.json'.format(stop_folder, stop_id)
-
-		print stop_file_path
 
 		if os.path.exists(stop_file_path):
 			json_data = open(stop_file_path)
 
 			routes = json.load(json_data).values()
 
+			current_routes = []
+
 			for route in routes:
 
 				for route_day_type in route["day_types"]:
+					
 					if day_type in route_day_type["day_types"]:
 						route["times"] = route_day_type["times"]
 
-				if route.get("times", None) == None:
-					print "times not found"
-					print route
-					print "########"
+				if not route.get("times", None) == None:
+					del route["day_types"]
 
-				del route["day_types"]
+					current_routes.append(route)
 
-			return routes
+			return current_routes
 		else:
 			return []
-
-	# def add_time_to_stop(self, stop, day_type):
-	# 	stop_file_path = 'data/stops/{0}.json'.format(stop["stop_id"])
-
-	# 	if os.path.exists(stop_file_path):
-	# 		json_data = open(stop_file_path)
-
-	# 		routes = json.load(json_data).values()
-
-	# 		routes = sorted(routes, key=lambda route: int(route["route"]))
-
-	# 		stop["routes"] = self.add_current_times(routes)
 
 
 	def add_current_times(self, routes):
@@ -133,10 +118,6 @@ class ScheduleHandler(webapp2.RequestHandler):
 		items_to_delete = []
 
 		for route in routes:
-			# print "############"
-			# print route
-			# print "############"
-
 			current_times = self.find_curent_time(route["times"], min_mintues_into_the_day, max_mintues_into_the_day)
 
 			if current_times:
@@ -194,6 +175,7 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 			stop_distance = self.distance(latitude, longitude, stop_latitude, stop_longitude)
 
+			# if(stop_distance < radius and stop["id"] == "90000295"):
 			if(stop_distance < radius):
 				stop["distance"] = stop_distance
 
@@ -202,23 +184,18 @@ class ScheduleHandler(webapp2.RequestHandler):
 				stops_in_radius.append(stop)
 				stop_in_radius_keys.append(stop["key"])
 
-		stops_in_radius_routes = memcache.get_multi(stop_in_radius_keys)
+		stops_routes = memcache.get_multi(stop_in_radius_keys)
 
 		for stop in stops_in_radius:
 
-			stop_routes = stops_in_radius_routes.get(stop["key"], None)
+			stop_routes = stops_routes.get(stop["key"], None)
+
+			# stop_routes = self.routes_for_stop(stop["id"], day_type)
 
 			if stop_routes is None:
 				stop_routes = self.routes_for_stop(stop["id"], day_type)
 
 				memcache.add(key=stop["key"], value=stop_routes)
-
-			print stop["id"]
-
-			if stop["id"] == "90000295":
-				print stop
-				print stop_routes
-				# print stop_routes
 
 			stop["routes"] = self.add_current_times(stop_routes)
 
