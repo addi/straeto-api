@@ -64,9 +64,9 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 		day_key = '{0}-{1:02d}-{2:02d}'.format(dateInfo.year, dateInfo.month, dateInfo.day)
 
-		# backup_day_type = (dateInfo.isoweekday() % 7) + 1
+		backup_day_type = str((dateInfo.isoweekday() % 7) + 1)
 
-		return data.get(day_key, 0)
+		return data.get(day_key, backup_day_type)
 
 	def cache_time(self):
 		current_bus_day_time = self.bus_date()
@@ -186,20 +186,25 @@ class ScheduleHandler(webapp2.RequestHandler):
 
 		stops_routes = memcache.get_multi(stop_in_radius_keys)
 
+		current_stops = []
+
 		for stop in stops_in_radius:
 
 			stop_routes = stops_routes.get(stop["key"], None)
-
-			# stop_routes = self.routes_for_stop(stop["id"], day_type)
 
 			if stop_routes is None:
 				stop_routes = self.routes_for_stop(stop["id"], day_type)
 
 				memcache.add(key=stop["key"], value=stop_routes)
 
-			stop["routes"] = self.add_current_times(stop_routes)
+			routes = self.add_current_times(stop_routes)
 
-		return sorted(stops_in_radius, key=lambda stop: stop["distance"])
+			if len(routes) > 0:
+				stop["routes"] = routes
+
+				current_stops.append(stop)
+
+		return sorted(current_stops, key=lambda stop: stop["distance"])
 
 	def distance(self, lat1, long1, lat2, long2):
 

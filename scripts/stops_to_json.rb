@@ -16,6 +16,7 @@ doc.xpath("//stod").each do |s|
 	short_name = name.split(" / ").last.split(" - ").last
 
 	stop["name"] = name
+	stop["long_name"] = short_name
 	stop["short_name"] = short_name
 
 	stop["latitude"] = s["lat"].to_f
