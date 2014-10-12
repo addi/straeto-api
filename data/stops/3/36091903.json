@@ -1,0 +1,20 @@
+{
+  "76": {
+    "route": "81",
+    "last_stop_name": "Borgarnes",
+    "day_types": [
+      {
+        "day_types": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "times": [
+          "18:34"
+        ]
+      }
+    ]
+  }
+}

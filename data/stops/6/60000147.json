@@ -1,0 +1,38 @@
+{
+  "72": {
+    "route": "78",
+    "last_stop_name": "Akureyri ",
+    "day_types": [
+      {
+        "day_types": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "times": [
+          "08:02"
+        ]
+      }
+    ]
+  },
+  "73": {
+    "route": "78",
+    "last_stop_name": "Siglufjörður",
+    "day_types": [
+      {
+        "day_types": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "times": [
+          "08:05"
+        ]
+      }
+    ]
+  }
+}
