@@ -12,7 +12,10 @@ stops = []
 doc.xpath("//stod").each do |s|
 	stop = {}
 
-	name = s["nafn"]
+	name = s["nafn"].force_encoding('iso-8859-1').encode('utf-8')
+
+	p name
+
 	short_name = name.split(" / ").last.split(" - ").last
 
 	stop["name"] = name

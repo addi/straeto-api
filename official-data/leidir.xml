@@ -1,87 +1,94 @@
 <leidir>
-	<leid lid="1" num="1" leid="Vellir Â» FjÃ¶rÃ°ur Â» GarÃ°abÃ¦r Â» KÃ³pavogur Â» Hlemmur">
-	<leid lid="2" num="1" leid="Hlemmur Â» KÃ³pavogur Â» GarÃ°abÃ¦r Â» FjÃ¶rÃ°ur Â» Vellir">
-	<leid lid="3" num="R1" leid="ReykjaneshÃ¶ll Â» Vatnsholt Â» HeiÃ°arsel Â» FischershÃºs Â» MyllubakkaskÃ³li Â» Nesvellir Â» ReykjaneshÃ¶ll">
-	<leid lid="4" num="11" leid="MjÃ³dd Â» Hlemmur Â» Seltjarnarnes">
-	<leid lid="5" num="11" leid="Seltjarnarnes Â» Hlemmur Â» MjÃ³dd">
-	<leid lid="6" num="12" leid="ÃrtÃºn Â» MjÃ³dd Â» Hlemmur Â» SkerjafjÃ¶rÃ°ur">
-	<leid lid="7" num="12" leid="SkerjafjÃ¶rÃ°ur Â» Hlemmur Â» MjÃ³dd Â» ÃrtÃºn">
-	<leid lid="8" num="13" leid="SlÃ©ttuvegur Â» Hlemmur Â» LÃ¦kjartorg Â» EiÃ°istorg">
-	<leid lid="9" num="13" leid="EiÃ°istorg Â» LÃ¦kjartorg Â» Hlemmur Â» SlÃ©ttuvegur">
-	<leid lid="10" num="14" leid="VerzlÃ³ Â» Vogar Â» Hlemmur Â» Grandi">
-	<leid lid="11" num="14" leid="Grandi Â» Hlemmur Â» Vogar Â» VerzlÃ³">
-	<leid lid="12" num="15" leid="MosfellsbÃ¦r Â» ÃrtÃºn Â» Hlemmur Â» VesturbÃ¦r">
-	<leid lid="13" num="15" leid="VesturbÃ¦r Â» Hlemmur Â» ÃrtÃºn Â» MosfellsbÃ¦r">
-	<leid lid="14" num="17" leid="Hlemmur Â» MjÃ³dd Â» Berg Â» Fell">
-	<leid lid="15" num="17" leid="Berg Â» Fell Â» MjÃ³dd Â» Hlemmur">
-	<leid lid="16" num="5" leid="Hlemmur Â» SÃ¦braut Â» ÃrtÃºn Â» SelÃ¡sbraut Â» NorÃ°lingaholt">
-	<leid lid="17" num="5" leid="NorÃ°lingaholt Â» SelÃ¡sbraut Â» ÃrtÃºn Â» SÃ¦braut Â» Hlemmur">
-	<leid lid="18" num="5" leid="Hlemmur Â» KlettagarÃ°ar">
-	<leid lid="19" num="5" leid="KlettagarÃ°ar Â» Hlemmur">
-	<leid lid="20" num="18" leid="SpÃ¶ngin Â» Korputorg Â» Grafarholt Â» ÃrtÃºn Â» BÃºstaÃ°av. Â» Hlemmur">
-	<leid lid="21" num="18" leid="Hlemmur Â» BÃºstaÃ°av. Â» ÃrtÃºn Â» Grafarholt Â» Korputorg Â» SpÃ¶ngin">
-	<leid lid="22" num="19" leid="NauthÃ³ll Â» Hlemmur Â» ÃrtÃºn Â» NorÃ°lingaholt">
-	<leid lid="23" num="19" leid="NorÃ°lingaholt Â» ÃrtÃºn Â» Hlemmur Â» NauthÃ³ll">
-	<leid lid="24" num="2" leid="Hlemmur Â» Kringlan Â» Hamraborg Â» SmÃ¡ralind Â» Salahverfi">
-	<leid lid="25" num="2" leid="Salahverfi Â» SmÃ¡ralind Â» Hamraborg Â» Kringlan Â» Hlemmur">
-	<leid lid="26" num="3" leid="Hlemmur Â» Kringlan Â» MjÃ³dd Â» Sel Â» Berg Â» HÃ³lar Â» MjÃ³dd">
-	<leid lid="27" num="3" leid="MjÃ³dd Â» Sel Â» Berg Â» HÃ³lar Â» MjÃ³dd Â» Kringlan Â» Hlemmur">
-	<leid lid="28" num="4" leid="Hlemmur Â» BorgartÃºn Â» Hamraborg Â» MjÃ³dd Â» HÃ³lar Â» Berg Â» Sel Â» MjÃ³dd">
-	<leid lid="29" num="4" leid="MjÃ³dd Â» HÃ³lar Â» Berg Â» Sel Â» MjÃ³dd Â» Hamraborg Â» BorgartÃºn Â» Hlemmur">
-	<leid lid="30" num="R2" leid="ReykjaneshÃ¶ll Â» Fitjar Â» AkurskÃ³li Â» Furudalur Â» Kambur Â» Fitjar Â» ReykjaneshÃ¶ll ">
-	<leid lid="31" num="21" leid="FjÃ¶rÃ°ur Â» SÃ³lvangur Â» KauptÃºn Â» MjÃ³dd">
-	<leid lid="32" num="21" leid="MjÃ³dd Â» KauptÃºn Â» SÃ³lvangur Â» FjÃ¶rÃ°ur">
-	<leid lid="33" num="23" leid="ÃsgarÃ°ur Â» Ãlftanes Â» ÃsgarÃ°ur">
-	<leid lid="34" num="24" leid="GarÃ°abÃ¦r Â» SmÃ¡ralind Â» MjÃ³dd Â» ÃrtÃºn Â» SpÃ¶ngin">
-	<leid lid="35" num="24" leid="SpÃ¶ngin Â» ÃrtÃºn Â» MjÃ³dd Â» SmÃ¡ralind Â» GarÃ°abÃ¦r">
-	<leid lid="36" num="26" leid="SpÃ¶ngin Â» ÃšlfarsÃ¡rdalur Â» Grafarholt Â» ÃrbÃ¦r">
-	<leid lid="37" num="26" leid="ÃrbÃ¦r Â» Grafarholt Â» ÃšlfarsÃ¡rdalur Â» SpÃ¶ngin">
-	<leid lid="38" num="28" leid="MjÃ³dd Â» Vatnsendi Â» Salahverfi Â» Lindir Â» Hamraborg">
-	<leid lid="39" num="28" leid="Hamraborg Â» Lindir Â» Salahverfi Â» Vatnsendi Â» MjÃ³dd">
-	<leid lid="40" num="R3" leid="ReykjaneshÃ¶ll Â» SkÃ³gartorg Â» Keilir Â» Virkjun Â» GrÃ¦nÃ¡s Â» ReykjaneshÃ¶ll">
-	<leid lid="41" num="31" leid="EgilshÃ¶ll Â» HÃºs Â» Fjallkonuvegur Â» Hamrar Â» GufunesbÃ¦r">
-	<leid lid="42" num="31" leid="GufunesbÃ¦r Â» Hamrar Â» Fjallkonuvegur Â» HÃºs Â» EgilshÃ¶ll">
-	<leid lid="43" num="35" leid="Hamraborg Â» KÃ¡rsnes Â» Engihjalli Â» Hamraborg">
-	<leid lid="44" num="R4" leid="ReykjaneshÃ¶ll Â» GrÃ¦nÃ¡s Â» HafnirÂ» GrÃ¦nÃ¡s Â» ReykjaneshÃ¶ll">
-	<leid lid="45" num="44" leid="FjÃ¶rÃ°ur Â» Ã–ldutÃºnsskÃ³li Â» VÃ¶rÃ°utorg Â» Ãsvallalaug Â» Holt Â» FjÃ¶rÃ°ur">
-	<leid lid="46" num="43" leid="FjÃ¶rÃ°ur Â» Hjallabraut Â» Kaplakriki Â» Setberg Â» FjÃ¶rÃ°ur">
-	<leid lid="47" num="22" leid="FjÃ¶rÃ°ur Â» Hraun">
-	<leid lid="48" num="22" leid="Hraun Â» FjÃ¶rÃ°ur">
-	<leid lid="49" num="33" leid="FjÃ¶rÃ°ur Â» HÃ¡holt Â» Ãsar Â» Berg Â» FjÃ¶rÃ°ur">
-	<leid lid="50" num="34" leid="FjÃ¶rÃ°ur Â» Berg Â» Ãsar Â» HÃ¡holt Â» FjÃ¶rÃ°ur">
-	<leid lid="51" num="51" leid="HÃ¶fn Â» Skaftafell Â» VÃ­k Â»HvolsvÃ¶llur Â» Selfoss Â» HveragerÃ°i Â» ReykjavÃ­k">
-	<leid lid="52" num="51" leid="ReykjavÃ­k Â» HveragerÃ°i Â» Selfoss Â» HvolsvÃ¶llur Â» VÃ­k Â» Skaftafell Â» HÃ¶fn">
-	<leid lid="53" num="52" leid="ReykjavÃ­k Â» HveragerÃ°i Â» Selfoss Â» Hella Â» HvolsvÃ¶llur Â» LandeyjahÃ¶fn">
-	<leid lid="54" num="52" leid="LandeyjahÃ¶fn Â» HvolsvÃ¶llur Â» Hella Â» Selfoss Â» HveragerÃ°i Â» ReykjavÃ­k">
-	<leid lid="55" num="53" leid="ReykjavÃ­k Â» ÃžorlÃ¡kshÃ¶fn">
-	<leid lid="56" num="53" leid="ÃžorlÃ¡kshÃ¶fn Â» ReykjavÃ­k">
-	<leid lid="57" num="56" leid="EgilsstaÃ°ir Â» ReykjahlÃ­Ã° Â» Akureyri">
-	<leid lid="58" num="56" leid="Akureyri Â» ReykjahlÃ­Ã° Â»  EgilsstaÃ°ir">
-	<leid lid="59" num="57" leid="Akureyri Â» SauÃ°Ã¡rkrÃ³kur Â» BlÃ¶nduÃ³s Â» Borgarnes Â» Akranes Â» HÃ¡holt Â» ReykjavÃ­k">
-	<leid lid="60" num="57" leid="ReykjavÃ­k Â» HÃ¡holt Â» Akranes Â» Borgarnes Â» BlÃ¶nduÃ³s Â» SauÃ°Ã¡rkrÃ³kur Â» Akureyri">
-	<leid lid="61" num="58" leid="StykkishÃ³lmur Â» Borgarnes">
-	<leid lid="62" num="58" leid="Borgarnes Â» StykkishÃ³lmur">
-	<leid lid="63" num="59" leid="Borgarnes Â» BÃºÃ°ardalur Â» HÃ³lmavÃ­k">
-	<leid lid="64" num="59" leid="HÃ³lmavÃ­k Â» BÃºÃ°ardalur Â» Borgarnes">
-	<leid lid="65" num="6" leid="HÃ¡holt Â» BarÃ°astaÃ°ir Â» SpÃ¶ngin Â» ÃrtÃºn Â» Kringlan Â» Hlemmur">
-	<leid lid="66" num="6" leid="Hlemmur Â» Kringlan Â» ÃrtÃºn Â» SpÃ¶ngin Â» BarÃ°astaÃ°ir Â» HÃ¡holt">
-	<leid lid="67" num="72" leid="Selfoss Â» Borg Â» Reykholt Â» FlÃºÃ°ir Â» Selfoss">
-	<leid lid="68" num="73" leid="Selfoss Â» FlÃºÃ°ir Â» Reykholt Â» Laugarvatn Â» GrÃ­msnes Â» Selfoss">
-	<leid lid="69" num="75" leid="Selfoss Â» Stokkseyri Â» Eyrarbakki Â» Selfoss">
-	<leid lid="70" num="74" leid="Selfoss Â» Stokkseyri Â» Eyrarbakki Â» ÃžorlÃ¡kshÃ¶fn">
-	<leid lid="71" num="74" leid="ÃžorlÃ¡kshÃ¶fn Â» Eyrarbakki Â» Stokkseyri Â» Selfoss">
-	<leid lid="72" num="78" leid="SiglufjÃ¶rÃ°ur Â» Ã“lafsfjÃ¶rÃ°ur Â» DalvÃ­k Â» Akureyri ">
-	<leid lid="73" num="78" leid="Akureyri Â» DalvÃ­k Â» Ã“lafsfjÃ¶rÃ°ur Â» SiglufjÃ¶rÃ°ur">
-	<leid lid="74" num="79" leid="ÃžÃ³rshÃ¶fn Â» HÃºsavÃ­k Â» Akureyri ">
-	<leid lid="75" num="79" leid="Akureyri Â» HÃºsavÃ­k Â» ÃžÃ³rshÃ¶fn">
-	<leid lid="76" num="81" leid="Borgarnes Â» Reykholt Â» Borgarnes">
-	<leid lid="77" num="82" leid="Arnarstapi Â» Hellissandur Â» GrundarfjÃ¶rÃ°ur Â» StykkishÃ³lmur">
-	<leid lid="78" num="82" leid="StykkishÃ³lmur Â» GrundarfjÃ¶rÃ°ur Â» Hellissandur Â» Arnarstapi">
-	<leid lid="79" num="1" leid="MiÃ°bÃ¦r Â» GlerÃ¡rhverfi Â»  Brekka Â» MiÃ°bÃ¦r">
-	<leid lid="80" num="1" leid="MiÃ°bÃ¦r Â» InnbÃ¦r Â» Naustahverfi Â» Brekka Â» MiÃ°bÃ¦r">
-	<leid lid="81" num="2" leid="MiÃ°bÃ¦r Â» (Brekka) Â» GlerÃ¡rhverfi Â» MiÃ°bÃ¦r">
-	<leid lid="82" num="3" leid="MiÃ°bÃ¦r Â» GlerÃ¡rhverfi Â» MiÃ°bÃ¦r">
-	<leid lid="83" num="3" leid="MiÃ°bÃ¦r Â» Brekka Â» Naustahverfi Â» InnbÃ¦r Â» MiÃ°bÃ¦r">
-	<leid lid="84" num="4" leid="MiÃ°bÃ¦r Â» GlerÃ¡rhverfi Â» Oddeyri Â» MiÃ°bÃ¦r">
-	<leid lid="85" num="4" leid="MiÃ°bÃ¦r Â» Naustahverfi Â» Brekka Â» MiÃ°bÃ¦r">
+	<leid lid="1" num="1" leid="Vellir » Fjörður » Garðabær » Kópavogur » Hlemmur"/>
+	<leid lid="2" num="1" leid="Hlemmur » Kópavogur » Garðabær » Fjörður » Vellir"/>
+	<leid lid="3" num="R1" leid="Reykjaneshöll » Vatnsholt » Heiðarsel » Fischershús » Myllubakkaskóli » Nesvellir » Reykjaneshöll"/>
+	<leid lid="4" num="11" leid="Mjódd » Hlemmur » Seltjarnarnes"/>
+	<leid lid="5" num="11" leid="Seltjarnarnes » Hlemmur » Mjódd"/>
+	<leid lid="6" num="12" leid="Ártún » Mjódd » Hlemmur » Skerjafjörður"/>
+	<leid lid="7" num="12" leid="Skerjafjörður » Hlemmur » Mjódd » Ártún"/>
+	<leid lid="8" num="13" leid="Sléttuvegur » Hlemmur » Lækjartorg » Eiðistorg"/>
+	<leid lid="9" num="13" leid="Eiðistorg » Lækjartorg » Hlemmur » Sléttuvegur"/>
+	<leid lid="10" num="14" leid="Verzló » Vogar » Hlemmur » Grandi"/>
+	<leid lid="11" num="14" leid="Grandi » Hlemmur » Vogar » Verzló"/>
+	<leid lid="12" num="15" leid="Mosfellsbær » Ártún » Hlemmur » Vesturbær"/>
+	<leid lid="13" num="15" leid="Vesturbær » Hlemmur » Ártún » Mosfellsbær"/>
+	<leid lid="14" num="17" leid="Hlemmur » Mjódd » Berg » Fell"/>
+	<leid lid="15" num="17" leid="Berg » Fell » Mjódd » Hlemmur"/>
+	<leid lid="16" num="5" leid="Hlemmur » Sæbraut » Ártún » Selásbraut » Norðlingaholt"/>
+	<leid lid="17" num="5" leid="Norðlingaholt » Selásbraut » Ártún » Sæbraut » Hlemmur"/>
+	<leid lid="18" num="5" leid="Hlemmur » Klettagarðar"/>
+	<leid lid="19" num="5" leid="Klettagarðar » Hlemmur"/>
+	<leid lid="20" num="18" leid="Spöngin » Korputorg » Grafarholt » Ártún » Bústaðav. » Hlemmur"/>
+	<leid lid="21" num="18" leid="Hlemmur » Bústaðav. » Ártún » Grafarholt » Korputorg » Spöngin"/>
+	<leid lid="22" num="19" leid="Nauthóll » Hlemmur » Ártún » Norðlingaholt"/>
+	<leid lid="23" num="19" leid="Norðlingaholt » Ártún » Hlemmur » Nauthóll"/>
+	<leid lid="24" num="2" leid="Hlemmur » Kringlan » Hamraborg » Smáralind » Salahverfi"/>
+	<leid lid="25" num="2" leid="Salahverfi » Smáralind » Hamraborg » Kringlan » Hlemmur"/>
+	<leid lid="26" num="3" leid="Hlemmur » Kringlan » Mjódd » Sel » Berg » Hólar » Mjódd"/>
+	<leid lid="27" num="3" leid="Mjódd » Sel » Berg » Hólar » Mjódd » Kringlan » Hlemmur"/>
+	<leid lid="28" num="4" leid="Hlemmur » Borgartún » Hamraborg » Mjódd » Hólar » Berg » Sel » Mjódd"/>
+	<leid lid="29" num="4" leid="Mjódd » Hólar » Berg » Sel » Mjódd » Hamraborg » Borgartún » Hlemmur"/>
+	<leid lid="30" num="R2" leid="Reykjaneshöll » Fitjar » Akurskóli » Furudalur » Kambur » Fitjar » Reykjaneshöll "/>
+	<leid lid="31" num="21" leid="Fjörður » Sólvangur » Kauptún » Mjódd"/>
+	<leid lid="32" num="21" leid="Mjódd » Kauptún » Sólvangur » Fjörður"/>
+	<leid lid="33" num="23" leid="Ásgarður » Álftanes » Ásgarður"/>
+	<leid lid="34" num="24" leid="Garðabær » Smáralind » Mjódd » Ártún » Spöngin"/>
+	<leid lid="35" num="24" leid="Spöngin » Ártún » Mjódd » Smáralind » Garðabær"/>
+	<leid lid="36" num="26" leid="Spöngin » Úlfarsárdalur » Grafarholt » Árbær"/>
+	<leid lid="37" num="26" leid="Árbær » Grafarholt » Úlfarsárdalur » Spöngin"/>
+	<leid lid="38" num="28" leid="Mjódd » Vatnsendi » Salahverfi » Lindir » Hamraborg"/>
+	<leid lid="39" num="28" leid="Hamraborg » Lindir » Salahverfi » Vatnsendi » Mjódd"/>
+	<leid lid="40" num="R3" leid="Reykjaneshöll » Skógartorg » Keilir » Virkjun » Grænás » Reykjaneshöll"/>
+	<leid lid="41" num="31" leid="Egilshöll » Hús » Fjallkonuvegur » Hamrar » Gufunesbær"/>
+	<leid lid="42" num="31" leid="Gufunesbær » Hamrar » Fjallkonuvegur » Hús » Egilshöll"/>
+	<leid lid="43" num="35" leid="Hamraborg » Kársnes » Engihjalli » Hamraborg"/>
+	<leid lid="44" num="R4" leid="Reykjaneshöll » Grænás » Hafnir» Grænás » Reykjaneshöll"/>
+	<leid lid="45" num="44" leid="Fjörður » Öldutúnsskóli » Vörðutorg » Ásvallalaug » Holt » Fjörður"/>
+	<leid lid="46" num="43" leid="Fjörður » Hjallabraut » Kaplakriki » Setberg » Fjörður"/>
+	<leid lid="47" num="22" leid="Fjörður » Hraun"/>
+	<leid lid="48" num="22" leid="Hraun » Fjörður"/>
+	<leid lid="49" num="33" leid="Fjörður » Háholt » Ásar » Berg » Fjörður"/>
+	<leid lid="50" num="34" leid="Fjörður » Berg » Ásar » Háholt » Fjörður"/>
+	<leid lid="51" num="51" leid="Höfn » Skaftafell » Vík »Hvolsvöllur » Selfoss » Hveragerði » Reykjavík"/>
+	<leid lid="52" num="51" leid="Reykjavík » Hveragerði » Selfoss » Hvolsvöllur » Vík » Skaftafell » Höfn"/>
+	<leid lid="53" num="75" leid="Selfoss » Stokkseyri » Eyrarbakki » Selfoss"/>
+	<leid lid="54" num="52" leid="Reykjavík » Hveragerði » Selfoss » Hella » Hvolsvöllur » Landeyjahöfn"/>
+	<leid lid="55" num="52" leid="Landeyjahöfn » Hvolsvöllur » Hella » Selfoss » Hveragerði » Reykjavík"/>
+	<leid lid="56" num="53" leid="Reykjavík » Þorlákshöfn"/>
+	<leid lid="57" num="53" leid="Þorlákshöfn » Reykjavík"/>
+	<leid lid="58" num="56" leid="Egilsstaðir » Reykjahlíð » Akureyri"/>
+	<leid lid="59" num="56" leid="Akureyri » Reykjahlíð »  Egilsstaðir"/>
+	<leid lid="60" num="57" leid="Akureyri » Sauðárkrókur » Blönduós » Borgarnes » Akranes » Háholt » Reykjavík"/>
+	<leid lid="61" num="57" leid="Reykjavík » Háholt » Akranes » Borgarnes » Blönduós » Sauðárkrókur » Akureyri"/>
+	<leid lid="62" num="58" leid="Stykkishólmur » Borgarnes"/>
+	<leid lid="63" num="58" leid="Borgarnes » Stykkishólmur"/>
+	<leid lid="64" num="59" leid="Borgarnes » Búðardalur » Hólmavík"/>
+	<leid lid="65" num="59" leid="Hólmavík » Búðardalur » Borgarnes"/>
+	<leid lid="66" num="6" leid="Háholt » Barðastaðir » Spöngin » Ártún » Kringlan » Hlemmur"/>
+	<leid lid="67" num="6" leid="Hlemmur » Kringlan » Ártún » Spöngin » Barðastaðir » Háholt"/>
+	<leid lid="68" num="72" leid="Selfoss » Borg » Reykholt » Flúðir » Selfoss"/>
+	<leid lid="69" num="73" leid="Selfoss » Flúðir » Reykholt » Laugarvatn » Grímsnes » Selfoss"/>
+	<leid lid="70" num="74" leid="Selfoss » Stokkseyri » Eyrarbakki » Þorlákshöfn"/>
+	<leid lid="71" num="74" leid="Þorlákshöfn » Eyrarbakki » Stokkseyri » Selfoss"/>
+	<leid lid="72" num="76" leid="Árnes » 72 / 73 » Árnes"/>
+	<leid lid="73" num="78" leid="Siglufjörður » Ólafsfjörður » Dalvík » Akureyri "/>
+	<leid lid="74" num="78" leid="Akureyri » Dalvík » Ólafsfjörður » Siglufjörður"/>
+	<leid lid="75" num="79" leid="Þórshöfn » Húsavík » Akureyri "/>
+	<leid lid="76" num="79" leid="Akureyri » Húsavík » Þórshöfn"/>
+	<leid lid="77" num="81" leid="Borgarnes » Reykholt » Borgarnes"/>
+	<leid lid="78" num="82" leid="Hellissandur » Grundarfjörður » Stykkishólmur"/>
+	<leid lid="79" num="82" leid="Stykkishólmur » Grundarfjörður » Hellissandur"/>
+	<leid lid="80" num="83" leid="Hvammstangi » Hvammstangavegur"/>
+	<leid lid="81" num="83" leid="Hvammstangavegur » Hvammstangi"/>
+	<leid lid="82" num="84" leid="Skagaströnd » Blönduós"/>
+	<leid lid="83" num="84" leid="Blönduós » Skagaströnd"/>
+	<leid lid="84" num="85" leid="Hofsós  » Hólar » Sauðárkrókur"/>
+	<leid lid="85" num="85" leid="Sauðárkrókur » Hofsós  » Hólar"/>
+	<leid lid="86" num="1" leid="Miðbær » Glerárhverfi »  Brekka » Miðbær"/>
+	<leid lid="87" num="1" leid="Miðbær » Innbær » Naustahverfi » Brekka » Miðbær"/>
+	<leid lid="88" num="2" leid="Miðbær » (Brekka) » Glerárhverfi » Miðbær"/>
+	<leid lid="89" num="3" leid="Miðbær » Glerárhverfi » Miðbær"/>
+	<leid lid="90" num="3" leid="Miðbær » Brekka » Naustahverfi » Innbær » Miðbær"/>
+	<leid lid="91" num="4" leid="Miðbær » Glerárhverfi » Oddeyri » Miðbær"/>
+	<leid lid="92" num="4" leid="Miðbær » Naustahverfi » Brekka » Miðbær"/>
 </leidir>

@@ -1,99 +1,123 @@
 {
-  "60": {
+  "61": {
     "route": "57",
     "last_stop_name": "Akureyri",
     "day_types": [
       {
         "day_types": [
           "1",
+          "10",
           "2",
-          "9",
           "3",
           "4",
           "5",
-          "6",
-          "8",
-          "7"
+          "6"
         ],
         "times": [
           "10:44",
           "19:14"
         ]
+      },
+      {
+        "day_types": [
+          "7"
+        ],
+        "times": [
+          "10:44"
+        ]
       }
     ]
   },
-  "59": {
+  "60": {
     "route": "57",
     "last_stop_name": "Reykjavík",
     "day_types": [
       {
         "day_types": [
           "1",
+          "10",
           "2",
-          "9",
           "3",
           "4",
           "5",
-          "6",
-          "8",
-          "7"
+          "6"
         ],
         "times": [
           "15:02",
           "21:07"
         ]
-      }
-    ]
-  },
-  "63": {
-    "route": "59",
-    "last_stop_name": "Hólmavík",
-    "day_types": [
+      },
       {
         "day_types": [
-          "1",
-          "2",
-          "4",
-          "6",
-          "8",
-          "9"
+          "7"
         ],
         "times": [
-          "17:14"
+          "21:07"
         ]
       }
     ]
   },
   "64": {
     "route": "59",
+    "last_stop_name": "Hólmavík",
+    "day_types": [
+      {
+        "day_types": [
+          "1",
+          "6",
+          "10"
+        ],
+        "times": [
+          "17:14"
+        ]
+      },
+      {
+        "day_types": [
+          "2",
+          "4"
+        ],
+        "times": [
+          "18:16"
+        ]
+      }
+    ]
+  },
+  "65": {
+    "route": "59",
     "last_stop_name": "Borgarnes",
     "day_types": [
       {
         "day_types": [
           "1",
-          "2",
-          "4",
           "6",
-          "8",
-          "9"
+          "10"
         ],
         "times": [
           "21:08"
         ]
+      },
+      {
+        "day_types": [
+          "2",
+          "4"
+        ],
+        "times": [
+          "20:03"
+        ]
       }
     ]
   },
-  "76": {
+  "77": {
     "route": "81",
     "last_stop_name": "Borgarnes",
     "day_types": [
       {
         "day_types": [
+          "2",
           "3",
           "4",
           "5",
-          "6",
-          "8"
+          "6"
         ],
         "times": [
           "19:02"

@@ -1,16 +1,13 @@
 {
-  "63": {
+  "64": {
     "route": "59",
     "last_stop_name": "Hólmavík",
     "day_types": [
       {
         "day_types": [
           "1",
-          "2",
-          "4",
           "6",
-          "8",
-          "9"
+          "10"
         ],
         "times": [
           "18:38"
@@ -18,18 +15,15 @@
       }
     ]
   },
-  "64": {
+  "65": {
     "route": "59",
     "last_stop_name": "Borgarnes",
     "day_types": [
       {
         "day_types": [
           "1",
-          "2",
-          "4",
           "6",
-          "8",
-          "9"
+          "10"
         ],
         "times": [
           "19:46"

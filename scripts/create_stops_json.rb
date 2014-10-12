@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'json'
+require 'fileutils'
 
 
 routes_xml = Nokogiri::XML(File.open("../official-data/leidir.xml"))
@@ -10,7 +11,7 @@ routes_xml.xpath("//leid").each do |r|
 
 	route_id = r["lid"]
 	route = r["num"]
-	end_stop = r["leid"].split(" » ").last
+	end_stop = r["leid"].force_encoding('iso-8859-1').encode('utf-8').split(" » ").last
 
 	routes[route_id] = { "route" => route, "end_stop" => end_stop}
 
@@ -101,7 +102,15 @@ stops_raw_data.each do |k, v|
 end
 
 stops.each do |stop_id, stop_data|
-	File.open("../data/stops/"+stop_id+".json", "w") do |f|
+	folder_name = stop_id.chars.first
+
+	folder_path = "../data/stops/"+folder_name+"/"
+
+	unless File.directory?(folder_path)
+  		FileUtils.mkdir_p(folder_path)
+	end
+
+	File.open(folder_path+stop_id+".json", "w") do |f|
 		f.write(JSON.pretty_generate(stop_data))
 	end
 end

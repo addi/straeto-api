@@ -784,9 +784,9 @@
     "id": "10000927"
   },
   {
-    "name": "Hjallaskóli",
-    "long_name": "Hjallaskóli",
-    "short_name": "Hjallaskóli",
+    "name": "Álfhólsskóli / Efstihjalli",
+    "long_name": "Álfhólsskóli / Efstihjalli",
+    "short_name": "Efstihjalli",
     "latitude": 64.110826,
     "longitude": -21.862431,
     "id": "10000928"
@@ -800,9 +800,9 @@
     "id": "10000945"
   },
   {
-    "name": "Digranesskóli",
-    "long_name": "Digranesskóli",
-    "short_name": "Digranesskóli",
+    "name": "Álfhólsskóli / Digranes",
+    "long_name": "Álfhólsskóli / Digranes",
+    "short_name": "Digranes",
     "latitude": 64.111428,
     "longitude": -21.872992,
     "id": "10000946"
@@ -2728,9 +2728,9 @@
     "id": "30001828"
   },
   {
-    "name": "Fossnesti",
-    "long_name": "Fossnesti",
-    "short_name": "Fossnesti",
+    "name": "Selfoss - N1",
+    "long_name": "Selfoss - N1",
+    "short_name": "N1",
     "latitude": 63.937022,
     "longitude": -20.987522,
     "id": "82000001"
@@ -5872,6 +5872,14 @@
     "id": "90000468"
   },
   {
+    "name": "Egilshöll",
+    "long_name": "Egilshöll",
+    "short_name": "Egilshöll",
+    "latitude": 64.148365,
+    "longitude": -21.771914,
+    "id": "90000469"
+  },
+  {
     "name": "Gullengi / Laufengi",
     "long_name": "Gullengi / Laufengi",
     "short_name": "Laufengi",
@@ -5940,7 +5948,7 @@
     "long_name": "Melavegur / Dofraborgir",
     "short_name": "Dofraborgir",
     "latitude": 64.153048,
-    "longitude": -21.797057,
+    "longitude": -21.797058,
     "id": "90000478"
   },
   {
@@ -5976,9 +5984,9 @@
     "id": "90000483"
   },
   {
-    "name": "Víkurskóli",
-    "long_name": "Víkurskóli",
-    "short_name": "Víkurskóli",
+    "name": "Kelduskóli",
+    "long_name": "Kelduskóli",
+    "short_name": "Kelduskóli",
     "latitude": 64.152653,
     "longitude": -21.779077,
     "id": "90000484"
@@ -6112,9 +6120,9 @@
     "id": "90000501"
   },
   {
-    "name": "Víkurskóli",
-    "long_name": "Víkurskóli",
-    "short_name": "Víkurskóli",
+    "name": "Kelduskóli",
+    "long_name": "Kelduskóli",
+    "short_name": "Kelduskóli",
     "latitude": 64.1527,
     "longitude": -21.779,
     "id": "90000502"
@@ -6222,6 +6230,14 @@
     "latitude": 64.09639,
     "longitude": -21.827377,
     "id": "90000517"
+  },
+  {
+    "name": "Egilshöll",
+    "long_name": "Egilshöll",
+    "short_name": "Egilshöll",
+    "latitude": 64.148161,
+    "longitude": -21.772222,
+    "id": "90000518"
   },
   {
     "name": "Víkurvegur / Borgavegur",
@@ -8086,6 +8102,22 @@
     "latitude": 64.917249,
     "longitude": -23.883747,
     "id": "37140003"
+  },
+  {
+    "name": "Hvammstangi",
+    "long_name": "Hvammstangi",
+    "short_name": "Hvammstangi",
+    "latitude": 65.392146,
+    "longitude": -20.937127,
+    "id": "55080002"
+  },
+  {
+    "name": "Skagaströnd",
+    "long_name": "Skagaströnd",
+    "short_name": "Skagaströnd",
+    "latitude": 65.823313,
+    "longitude": -20.302405,
+    "id": "56110001"
   },
   {
     "name": "Glerárgata / Eiðsvallagata",
@@ -10032,9 +10064,9 @@
     "id": "87200002"
   },
   {
-    "name": "Langholt / Larensstræti",
-    "long_name": "Langholt / Larensstræti",
-    "short_name": "Larensstræti",
+    "name": "Langholt / Larsensstræti",
+    "long_name": "Langholt / Larsensstræti",
+    "short_name": "Larsensstræti",
     "latitude": 63.937481,
     "longitude": -20.979016,
     "id": "82000037"
@@ -10120,11 +10152,27 @@
     "id": "90000784"
   },
   {
-    "name": "Arnarstapi",
-    "long_name": "Arnarstapi",
-    "short_name": "Arnarstapi",
-    "latitude": 64.76615,
-    "longitude": -23.6336,
-    "id": "37140004"
+    "name": "Hofsós",
+    "long_name": "Hofsós",
+    "short_name": "Hofsós",
+    "latitude": 65.8972,
+    "longitude": -19.412801,
+    "id": "52000003"
+  },
+  {
+    "name": "Hólar",
+    "long_name": "Hólar",
+    "short_name": "Hólar",
+    "latitude": 65.7328,
+    "longitude": -19.112001,
+    "id": "52000004"
+  },
+  {
+    "name": "Árnes",
+    "long_name": "Árnes",
+    "short_name": "Árnes",
+    "latitude": 64.042375,
+    "longitude": -20.250964,
+    "id": "87200003"
   }
 ]
