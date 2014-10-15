@@ -29,11 +29,43 @@ doc.xpath("//ferill").each do |f|
 
 		variants = v["var"].split(",")
 
+		last_stops = {}
+		
+		# find last stops
 		v.xpath(".//stop").each do |s|
 
+			route_id = s["lid"]
+
+			unless last_stops.key?(route_id)
+				last_stops[route_id] = []
+			end
+
+			last_stops[route_id] << s["stnum"].to_i
+
+		end
+
+		stop_times = v.xpath(".//stop")
+
+		stop_times.each_with_index do |s, index|
+
 			stop = s["stod"]
+			stop_number = s["stnum"].to_i
 			route_id = s["lid"]
 			time = s["timi"]
+
+			# p "before peek"
+
+			next_stop = stop_times[index + 1]
+
+			if next_stop && next_stop["lid"] == route_id && next_stop["stod"] == stop
+				# p "same stop, skip!"
+				next
+			end
+
+			if stop_number == last_stops[route_id].max
+				# p "skip"
+				next
+			end
 
 			unless stops_raw_data.key?(stop)
 				stops_raw_data[stop] = {}

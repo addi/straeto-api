@@ -71,42 +71,6 @@
       }
     ]
   },
-  "78": {
-    "route": "82",
-    "last_stop_name": "Stykkishólmur",
-    "day_types": [
-      {
-        "day_types": [
-          "8",
-          "4",
-          "7"
-        ],
-        "times": [
-          "17:24"
-        ]
-      },
-      {
-        "day_types": [
-          "1",
-          "10"
-        ],
-        "times": [
-          "08:54",
-          "17:24"
-        ]
-      },
-      {
-        "day_types": [
-          "2",
-          "6"
-        ],
-        "times": [
-          "08:21",
-          "17:24"
-        ]
-      }
-    ]
-  },
   "79": {
     "route": "82",
     "last_stop_name": "Hellissandur",
