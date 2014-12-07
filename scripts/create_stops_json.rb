@@ -59,12 +59,16 @@ doc.xpath("//ferill").each do |f|
 			if next_stop && next_stop["lid"] == route_id && next_stop["stod"] == stop
 				# p "same stop, skip!"
 				next
+			else
+				# p "NOT same stop, skip!"
 			end
 
 			# Skip last stops in route
-			if not next_stop || (last_stops.count > 1 &&  stop_number == last_stops[route_id].max)
-				# p "skip"
+			if (not next_stop) || (last_stops.count > 1 &&  stop_number == last_stops[route_id].max)
+				# p "Skip last stops in route"
 				next
+			else
+				# p "NOT Skip last stops in route"
 			end
 
 			unless stops_raw_data.key?(stop)

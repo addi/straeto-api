@@ -57,24 +57,6 @@
       }
     ]
   },
-  "84": {
-    "route": "85",
-    "last_stop_name": "Sauðárkrókur",
-    "day_types": [
-      {
-        "day_types": [
-          "1",
-          "4",
-          "6",
-          "10"
-        ],
-        "times": [
-          "17:50",
-          "22:20"
-        ]
-      }
-    ]
-  },
   "85": {
     "route": "85",
     "last_stop_name": "Hólar",
