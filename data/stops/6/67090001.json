@@ -1,0 +1,26 @@
+{
+  "75": {
+    "route": "79",
+    "last_stop_name": "Akureyri ",
+    "day_types": [
+      {
+        "day_types": [
+          "4",
+          "6"
+        ],
+        "times": [
+          "13:37"
+        ]
+      },
+      {
+        "day_types": [
+          "1",
+          "10"
+        ],
+        "times": [
+          "14:37"
+        ]
+      }
+    ]
+  }
+}

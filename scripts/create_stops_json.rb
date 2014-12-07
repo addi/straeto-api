@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'json'
+require 'fileutils'
 
 
 routes_xml = Nokogiri::XML(File.open("../official-data/leidir.xml"))
@@ -10,7 +11,7 @@ routes_xml.xpath("//leid").each do |r|
 
 	route_id = r["lid"]
 	route = r["num"]
-	end_stop = r["leid"].split(" » ").last
+	end_stop = r["leid"].force_encoding('iso-8859-1').encode('utf-8').split(" » ").last
 
 	routes[route_id] = { "route" => route, "end_stop" => end_stop}
 
@@ -28,11 +29,47 @@ doc.xpath("//ferill").each do |f|
 
 		variants = v["var"].split(",")
 
+		last_stops = {}
+		
+		# find last stops
 		v.xpath(".//stop").each do |s|
 
+			route_id = s["lid"]
+
+			unless last_stops.key?(route_id)
+				last_stops[route_id] = []
+			end
+
+			last_stops[route_id] << s["stnum"].to_i
+
+		end
+
+		stop_times = v.xpath(".//stop")
+
+		stop_times.each_with_index do |s, index|
+
 			stop = s["stod"]
+			stop_number = s["stnum"].to_i
 			route_id = s["lid"]
 			time = s["timi"]
+
+			next_stop = stop_times[index + 1]
+
+			# remove arriving times
+			if next_stop && next_stop["lid"] == route_id && next_stop["stod"] == stop
+				# p "same stop, skip!"
+				next
+			else
+				# p "NOT same stop, skip!"
+			end
+
+			# Skip last stops in route
+			if (not next_stop) || (last_stops.count > 1 &&  stop_number == last_stops[route_id].max)
+				# p "Skip last stops in route"
+				next
+			else
+				# p "NOT Skip last stops in route"
+			end
 
 			unless stops_raw_data.key?(stop)
 				stops_raw_data[stop] = {}
@@ -101,7 +138,15 @@ stops_raw_data.each do |k, v|
 end
 
 stops.each do |stop_id, stop_data|
-	File.open("../data/stops/"+stop_id+".json", "w") do |f|
+	folder_name = stop_id.chars.first
+
+	folder_path = "../data/stops/"+folder_name+"/"
+
+	unless File.directory?(folder_path)
+  		FileUtils.mkdir_p(folder_path)
+	end
+
+	File.open(folder_path+stop_id+".json", "w") do |f|
 		f.write(JSON.pretty_generate(stop_data))
 	end
 end
