@@ -53,16 +53,16 @@ doc.xpath("//ferill").each do |f|
 			route_id = s["lid"]
 			time = s["timi"]
 
-			# p "before peek"
-
 			next_stop = stop_times[index + 1]
 
+			# remove arriving times
 			if next_stop && next_stop["lid"] == route_id && next_stop["stod"] == stop
 				# p "same stop, skip!"
 				next
 			end
 
-			if stop_number == last_stops[route_id].max
+			# Skip last stops in route
+			if not next_stop || (last_stops.count > 1 &&  stop_number == last_stops[route_id].max)
 				# p "skip"
 				next
 			end
