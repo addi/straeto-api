@@ -24,8 +24,14 @@ import time
 from google.appengine.api import memcache
 
 class ScheduleHandler(webapp2.RequestHandler):
+	def options(self):
+		self.response.headers.add_header("Access-Control-Allow-Origin", "*")
+
+		self.response.write('hi firefox')
+
 	def get(self):
-		self.response.headers['Access-Control-Allow-Origin'] = '*'
+		self.response.headers.add_header("Access-Control-Allow-Origin", "*")
+		# self.response.headers.add_header("Access-Control-Allow-Methods", "GET")
 
 		if self.request.get_all("latitude") and self.request.get_all("longitude"):
 			latitude = float(self.request.get_all("latitude")[0])
