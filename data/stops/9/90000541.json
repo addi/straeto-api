@@ -1,14 +1,15 @@
 {
-  "37": {
+  "27": {
     "route": "26",
     "last_stop_name": "Spöngin",
     "day_types": [
       {
         "day_types": [
-          "2",
           "3",
-          "4",
           "5",
+          "4",
+          "9",
+          "2",
           "6"
         ],
         "times": [

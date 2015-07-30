@@ -1,0 +1,20 @@
+{
+  "52": {
+    "route": "55",
+    "last_stop_name": "Reykjavík/HÍ",
+    "day_types": [
+      {
+        "day_types": [
+          "6",
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "times": [
+          "06:32"
+        ]
+      }
+    ]
+  }
+}

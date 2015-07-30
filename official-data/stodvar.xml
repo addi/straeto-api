@@ -325,7 +325,7 @@
 	<stod id="16040650" lon="-21.68113" lat="64.160714" nafn="Reykjavegur / Völuteigur"/>
 	<stod id="16040651" lon="-21.681836" lat="64.161111" nafn="Reykjavegur / Völuteigur"/>
 	<stod id="16040652" lon="-21.679204" lat="64.170692" nafn="Vesturlandsvegur / Ásland"/>
-	<stod id="16040653" lon="-21.68257" lat="64.183107" nafn="Leirvogstunga"/>
+	<stod id="16040653" lon="-21.682005" lat="64.183454" nafn="Leirvogstunga"/>
 	<stod id="16040655" lon="-21.66382" lat="64.162784" nafn="Reykjalundur"/>
 	<stod id="30001807" lon="-22.063736" lat="64.319621" nafn="Garðabraut"/>
 	<stod id="30001808" lon="-22.069842" lat="64.320347" nafn="Bæjarskrifstofan"/>
@@ -459,7 +459,6 @@
 	<stod id="90000163" lon="-21.884996" lat="64.149201" nafn="Kirkjusandur"/>
 	<stod id="90000164" lon="-21.888726" lat="64.146968" nafn="Laugarnesvegur / Borgartún"/>
 	<stod id="90000165" lon="-21.89642" lat="64.146184" nafn="Hótel Cabin"/>
-	<stod id="90000166" lon="-21.902372" lat="64.144011" nafn="Nóatún"/>
 	<stod id="90000167" lon="-21.951418" lat="64.147753" nafn="Hofsvallagata / Hávallagata"/>
 	<stod id="90000168" lon="-21.954384" lat="64.146702" nafn="Hofsvallagata / Hringbraut"/>
 	<stod id="90000169" lon="-21.958063" lat="64.145408" nafn="Hofsvallagata / Reynimelur"/>
@@ -474,7 +473,6 @@
 	<stod id="90000178" lon="-21.949187" lat="64.132695" nafn="Reykjavíkurflugvöllur"/>
 	<stod id="90000179" lon="-21.95403" lat="64.146712" nafn="Hofsvallagata / Hringbraut"/>
 	<stod id="90000180" lon="-21.951281" lat="64.147682" nafn="Hofsvallagata / Hávallagata"/>
-	<stod id="90000181" lon="-21.902109" lat="64.144046" nafn="Nóatún"/>
 	<stod id="90000182" lon="-21.895788" lat="64.146085" nafn="Hótel Cabin"/>
 	<stod id="90000183" lon="-21.888467" lat="64.146955" nafn="Laugarnesvegur / Borgartún"/>
 	<stod id="90000184" lon="-21.884687" lat="64.149219" nafn="Laugarnesvegur / Kirkjusandur"/>
@@ -485,7 +483,7 @@
 	<stod id="90000191" lon="-21.850696" lat="64.140213" nafn="Sund"/>
 	<stod id="90000192" lon="-21.902054" lat="64.130847" nafn="Hamrahlíð"/>
 	<stod id="90000193" lon="-21.850187" lat="64.133594" nafn="Vogar"/>
-	<stod id="90000198" lon="-21.821933" lat="64.123344" nafn="Straumur / Birtingakvísl"/>
+	<stod id="90000198" lon="-21.822564" lat="64.123307" nafn="Straumur / Birtingakvísl"/>
 	<stod id="90000200" lon="-21.94915" lat="64.126021" nafn="Skeljanes"/>
 	<stod id="90000201" lon="-21.946858" lat="64.128043" nafn="Skeljanes / Bauganes"/>
 	<stod id="90000202" lon="-21.947071" lat="64.12802" nafn="Skeljanes / Bauganes"/>
@@ -526,7 +524,7 @@
 	<stod id="90000237" lon="-21.871257" lat="64.128128" nafn="Sogavegur / Grundargerði"/>
 	<stod id="90000238" lon="-21.874015" lat="64.128591" nafn="Sogavegur / Akurgerði"/>
 	<stod id="90000239" lon="-21.874595" lat="64.130322" nafn="Grensás"/>
-	<stod id="90000240" lon="-21.873166" lat="64.132383" nafn="Grensásvegur / Skeifan"/>
+	<stod id="90000240" lon="-21.872544" lat="64.133196" nafn="Grensásvegur / Skeifan"/>
 	<stod id="90000241" lon="-21.863696" lat="64.131992" nafn="Gnoðarvogur / Ljósheimar"/>
 	<stod id="90000242" lon="-21.86071" lat="64.131255" nafn="Menntaskólinn við Sund / MS"/>
 	<stod id="90000243" lon="-21.856421" lat="64.13609" nafn="Langholtskirkja"/>
@@ -588,13 +586,11 @@
 	<stod id="90000302" lon="-21.907186" lat="64.12699" nafn="Veðurstofan"/>
 	<stod id="90000303" lon="-21.840328" lat="64.123938" nafn="Rafstöðvarvegur"/>
 	<stod id="90000304" lon="-21.790704" lat="64.114242" nafn="Fylkisvegur"/>
-	<stod id="90000305" lon="-21.790484" lat="64.11428" nafn="Fylkisvegur"/>
 	<stod id="90000306" lon="-21.823604" lat="64.12877" nafn="Stórhöfði / Breiðhöfði"/>
 	<stod id="90000307" lon="-21.782289" lat="64.121966" nafn="Krókháls / Suðurlandsvegur"/>
 	<stod id="90000308" lon="-21.814619" lat="64.128908" nafn="Stórhöfði / Höfðabakki"/>
 	<stod id="90000311" lon="-21.795499" lat="64.121526" nafn="Krókháls / Hálsabraut"/>
 	<stod id="90000312" lon="-21.790839" lat="64.121594" nafn="Krókháls / Stuðlaháls"/>
-	<stod id="90000315" lon="-21.788441" lat="64.113179" nafn="Hraunsás"/>
 	<stod id="90000316" lon="-21.791858" lat="64.1155" nafn="Rofabær / Brekkubær"/>
 	<stod id="90000317" lon="-21.796686" lat="64.116201" nafn="Árbæjarskóli"/>
 	<stod id="90000318" lon="-21.801745" lat="64.116903" nafn="Rofabær / Hábær"/>
@@ -712,7 +708,7 @@
 	<stod id="90000441" lon="-21.755284" lat="64.157507" nafn="Korpuskóli"/>
 	<stod id="90000442" lon="-21.750857" lat="64.158047" nafn="Bakkastaðir / Barðastaðir"/>
 	<stod id="90000443" lon="-21.758423" lat="64.155091" nafn="Korpúlfsstaðavegur / Brúnastaðir"/>
-	<stod id="90000444" lon="-21.822682" lat="64.101671" nafn="Fellaskóli"/>
+	<stod id="90000444" lon="-21.822682" lat="64.101671" nafn="Fellaskóli / Nýlistasafnið"/>
 	<stod id="90000445" lon="-21.817126" lat="64.101979" nafn="Norðurfell / Austurberg"/>
 	<stod id="90000446" lon="-21.816776" lat="64.10466" nafn="Gerðuberg"/>
 	<stod id="90000447" lon="-21.815871" lat="64.107773" nafn="Suðurhólar / Austurberg"/>
@@ -747,7 +743,7 @@
 	<stod id="90000481" lon="-21.903928" lat="64.134129" nafn="Hlíðar"/>
 	<stod id="90000482" lon="-21.812595" lat="64.136908" nafn="Lokinhamrar / Dverghamrar"/>
 	<stod id="90000483" lon="-21.916078" lat="64.136006" nafn="Klambratún"/>
-	<stod id="90000484" lon="-21.779077" lat="64.152653" nafn="Kelduskóli"/>
+	<stod id="90000484" lon="-21.778546" lat="64.152593" nafn="Kelduskóli"/>
 	<stod id="90000485" lon="-21.796901" lat="64.153038" nafn="Melavegur / Goðaborgir"/>
 	<stod id="90000486" lon="-21.793517" lat="64.154146" nafn="Melavegur / Hulduborgir"/>
 	<stod id="90000487" lon="-21.79142" lat="64.154769" nafn="Melavegur / Jötnaborgir"/>
@@ -785,7 +781,7 @@
 	<stod id="90000523" lon="-21.818393" lat="64.139327" nafn="Lokinhamrar / Hesthamrar"/>
 	<stod id="90000524" lon="-21.817051" lat="64.104986" nafn="Gerðuberg"/>
 	<stod id="90000525" lon="-21.817495" lat="64.101994" nafn="Norðurfell / Austurberg"/>
-	<stod id="90000526" lon="-21.82293" lat="64.101775" nafn="Fellaskóli"/>
+	<stod id="90000526" lon="-21.82293" lat="64.101775" nafn="Fellaskóli / Nýlistasafnið"/>
 	<stod id="90000527" lon="-21.735857" lat="64.12567" nafn="Biskupsgata"/>
 	<stod id="90000529" lon="-21.793928" lat="64.140749" nafn="Langirimi / Hallsvegur"/>
 	<stod id="90000530" lon="-21.792345" lat="64.142384" nafn="Langirimi / Flétturimi"/>
@@ -876,6 +872,7 @@
 	<stod id="90000758" lon="-21.796756" lat="64.123374" nafn="Hálsabraut / Grjótháls"/>
 	<stod id="90000759" lon="-21.803101" lat="64.123692" nafn="Grjótháls / Bitruháls"/>
 	<stod id="90000760" lon="-21.806758" lat="64.12195" nafn="Bitruháls"/>
+	<stod id="90000762" lon="-21.748187" lat="64.126533" nafn="Jónsgeisli / Kristnibraut"/>
 	<stod id="16040615" lon="-21.663995" lat="64.155738" nafn="Reykjavegur"/>
 	<stod id="90000601" lon="-21.754378" lat="64.13854" nafn="Bauhaus"/>
 	<stod id="90000644" lon="-21.753967" lat="64.138548" nafn="Bauhaus"/>
@@ -894,6 +891,7 @@
 	<stod id="90000764" lon="-21.733277" lat="64.126407" nafn="Reynisvatn"/>
 	<stod id="90000765" lon="-21.740256" lat="64.129031" nafn="Reynisvatnsvegur / Katrínarlind"/>
 	<stod id="90000763" lon="-21.750167" lat="64.134029" nafn="Lambhagavegur / Mímisbrunnur"/>
+	<stod id="90000773" lon="-21.751715" lat="64.155669" nafn="Korpúlfsstaðavegur / Barðastaðir"/>
 	<stod id="13001586" lon="-21.890106" lat="64.082286" nafn="Reykjanesbraut / Vífilsstaðir"/>
 	<stod id="13001587" lon="-21.896594" lat="64.083042" nafn="Reykjanesbraut / Vífilsstaðavegur"/>
 	<stod id="13001212" lon="-21.907533" lat="64.088219" nafn="Karlabraut / Heiðarlundur"/>
@@ -925,7 +923,7 @@
 	<stod id="14001547" lon="-21.9748" lat="64.052053" nafn="Ásvallalaug"/>
 	<stod id="14001550" lon="-21.966688" lat="64.060132" nafn="Suðurbraut / Smárabarð"/>
 	<stod id="14001558" lon="-21.977561" lat="64.056576" nafn="Suðurbraut / Hvaleyrarbraut"/>
-	<stod id="77080001" lon="-15.206203" lat="64.259049" nafn="Höfn í Hornafirði"/>
+	<stod id="77080001" lon="-15.207482" lat="64.254227" nafn="Höfn í Hornafirði"/>
 	<stod id="77080007" lon="-16.177622" lat="64.046076" nafn="Jökulsárlón"/>
 	<stod id="77080002" lon="-16.895577" lat="63.990524" nafn="Freysnes"/>
 	<stod id="77080003" lon="-16.96608" lat="64.016577" nafn="Skaftafell"/>
@@ -978,7 +976,7 @@
 	<stod id="82000021" lon="-21.062546" lat="63.8367" nafn="Hásteinsvegur / Stjörnusteinar"/>
 	<stod id="82000025" lon="-21.070147" lat="63.838655" nafn="Eyrarbraut / Eyjasel"/>
 	<stod id="31770001" lon="-22.726814" lat="65.077883" nafn="Stykkishólmur - höfnin"/>
-	<stod id="31770002" lon="-22.725471" lat="65.0762" nafn="Stykkishólmur - Olís"/>
+	<stod id="31770002" lon="-22.733308" lat="65.072023" nafn="Stykkishólmur - Olís"/>
 	<stod id="37100001" lon="-22.88883" lat="64.965162" nafn="Vatnaleið"/>
 	<stod id="37130001" lon="-22.733502" lat="64.849237" nafn="Vegamót"/>
 	<stod id="38110001" lon="-21.763202" lat="65.108063" nafn="Búðardalur"/>
@@ -1009,11 +1007,9 @@
 	<stod id="36091903" lon="-21.403658" lat="64.655831" nafn="Kleppjárnsreykir"/>
 	<stod id="36091904" lon="-21.294091" lat="64.664498" nafn="Reykholt"/>
 	<stod id="37090001" lon="-23.260496" lat="64.925097" nafn="Grundarfjörður"/>
-	<stod id="37140001" lon="-23.703612" lat="64.893744" nafn="Ólafsvík"/>
+	<stod id="37140001" lon="-23.704382" lat="64.893979" nafn="Ólafsvík"/>
 	<stod id="37140002" lon="-23.816553" lat="64.92261" nafn="Rif"/>
 	<stod id="37140003" lon="-23.883747" lat="64.917249" nafn="Hellissandur"/>
-	<stod id="55080002" lon="-20.937127" lat="65.392146" nafn="Hvammstangi"/>
-	<stod id="56110001" lon="-20.302405" lat="65.823313" nafn="Skagaströnd"/>
 	<stod id="60000069" lon="-18.091165" lat="65.685493" nafn="Glerárgata / Eiðsvallagata"/>
 	<stod id="60000070" lon="-18.096295" lat="65.687259" nafn="Glerárgata / Eyrarvegur"/>
 	<stod id="60000117" lon="-18.102869" lat="65.689287" nafn="Glerárbrú"/>
@@ -1151,76 +1147,18 @@
 	<stod id="60000136" lon="-18.08003" lat="65.686609" nafn="Laufásgata"/>
 	<stod id="60000054" lon="-18.100577" lat="65.684552" nafn="Lögreglustöð"/>
 	<stod id="36091907" lon="-21.921574" lat="64.540209" nafn="Íþróttamiðstöðin"/>
-	<stod id="20000052" lon="-22.557015" lat="63.994406" nafn="Reykjaneshöll"/>
-	<stod id="20000020" lon="-22.562531" lat="63.996435" nafn="Fjölbraut"/>
-	<stod id="20000021" lon="-22.562761" lat="63.99847" nafn="Holtaskóli"/>
+	<stod id="20000020" lon="-22.562531" lat="63.996435" nafn="Fjölbrautaskóli Suðurnesja / FS"/>
 	<stod id="20000022" lon="-22.559641" lat="64.00089" nafn="Hringbraut / Norðurtún"/>
-	<stod id="20000067" lon="-22.564256" lat="64.003242" nafn="Aðalgata"/>
-	<stod id="20000061" lon="-22.570368" lat="64.002165" nafn="Baldursgarður"/>
-	<stod id="20000060" lon="-22.576353" lat="64.000254" nafn="Vatnsholt"/>
-	<stod id="20000036" lon="-22.57961" lat="64.00289" nafn="Álsvellir"/>
-	<stod id="20000100" lon="-22.57717" lat="64.004759" nafn="Heiðargarður"/>
-	<stod id="20000101" lon="-22.575019" lat="64.006563" nafn="Heiðarskóli"/>
-	<stod id="20000066" lon="-22.572464" lat="64.008333" nafn="Heiðarbraut"/>
-	<stod id="20000063" lon="-22.575426" lat="64.009702" nafn="Heiðarsel"/>
-	<stod id="20000064" lon="-22.575363" lat="64.010964" nafn="Heiðarendi"/>
-	<stod id="20000069" lon="-22.564646" lat="64.005994" nafn="Vesturgata"/>
-	<stod id="20000078" lon="-22.55833" lat="64.006612" nafn="Fischershús"/>
-	<stod id="20000080" lon="-22.556587" lat="64.005052" nafn="Gamli bærinn"/>
-	<stod id="20000077" lon="-22.558515" lat="64.004238" nafn="Vinaminni"/>
-	<stod id="20000073" lon="-22.558661" lat="64.002764" nafn="Hornbjarg"/>
-	<stod id="20000072" lon="-22.556697" lat="64.001117" nafn="Myllubakkaskóli"/>
-	<stod id="20000103" lon="-22.549994" lat="63.999651" nafn="Hafnargata"/>
-	<stod id="20000082" lon="-22.549116" lat="63.997131" nafn="Stjáni Blái"/>
-	<stod id="20000058" lon="-22.549056" lat="63.993639" nafn="Krossmói"/>
-	<stod id="20000010" lon="-22.549142" lat="63.991154" nafn="Nesvellir"/>
-	<stod id="20000057" lon="-22.550978" lat="63.989424" nafn="Hjallavegur"/>
-	<stod id="20000053" lon="-22.554063" lat="63.990053" nafn="Ólafslundur"/>
-	<stod id="20000059" lon="-22.550085" lat="63.99498" nafn="Reykjavíkurtorg"/>
 	<stod id="20000013" lon="-22.548869" lat="63.988328" nafn="Njarðvíkurtorg"/>
-	<stod id="20000011" lon="-22.549317" lat="63.985702" nafn="Bolafótur"/>
-	<stod id="20000012" lon="-22.547502" lat="63.977193" nafn="Steinás"/>
-	<stod id="20000003" lon="-22.54305" lat="63.973625" nafn="Fitjar"/>
-	<stod id="20000015" lon="-22.530065" lat="63.971988" nafn="Stekkjarkot"/>
-	<stod id="20000087" lon="-22.522569" lat="63.973027" nafn="Stekkjargata"/>
-	<stod id="20000090" lon="-22.512978" lat="63.974372" nafn="Akurskóli"/>
-	<stod id="20000092" lon="-22.505276" lat="63.97499" nafn="Spóatjörn"/>
-	<stod id="20000094" lon="-22.50035" lat="63.974385" nafn="Hafdalur"/>
-	<stod id="20000095" lon="-22.495793" lat="63.972477" nafn="Unnardalur"/>
-	<stod id="20000096" lon="-22.490074" lat="63.97101" nafn="Aspardalur"/>
-	<stod id="20000097" lon="-22.485729" lat="63.97115" nafn="Furudalur"/>
-	<stod id="20000116" lon="-22.490686" lat="63.968528" nafn="Beykidalur"/>
-	<stod id="20000117" lon="-22.500377" lat="63.96928" nafn="Engjadalur"/>
-	<stod id="20000091" lon="-22.505195" lat="63.970337" nafn="Urðarbraut"/>
-	<stod id="20000089" lon="-22.511714" lat="63.972228" nafn="Kambur"/>
-	<stod id="20000118" lon="-22.512817" lat="63.974507" nafn="Akurskóli"/>
-	<stod id="20000014" lon="-22.530116" lat="63.972134" nafn="Stekkjarkot"/>
-	<stod id="20000006" lon="-22.543178" lat="63.973935" nafn="Fitjar"/>
-	<stod id="20000016" lon="-22.547051" lat="63.977047" nafn="Steinás"/>
-	<stod id="20000017" lon="-22.549051" lat="63.985411" nafn="Bolafótur"/>
 	<stod id="20000018" lon="-22.548561" lat="63.987696" nafn="Njarðvíkurtorg"/>
 	<stod id="13001361" lon="-21.914028" lat="64.074007" nafn="Kauptún"/>
 	<stod id="13001362" lon="-21.894143" lat="64.096512" nafn="Arnarnesvegur / Nónhæð"/>
-	<stod id="20000099" lon="-22.558577" lat="63.981447" nafn="Grænás"/>
-	<stod id="20000047" lon="-22.565975" lat="63.975469" nafn="Grænásbraut"/>
 	<stod id="20000045" lon="-22.566113" lat="63.972199" nafn="Bogabraut"/>
-	<stod id="20000049" lon="-22.558921" lat="63.971999" nafn="Skógartorg"/>
 	<stod id="20000098" lon="-22.571307" lat="63.96946" nafn="Keilir"/>
-	<stod id="20000033" lon="-22.581456" lat="63.967084" nafn="Eldey"/>
-	<stod id="20000031" lon="-22.589808" lat="63.96803" nafn="Háaleitisskóli"/>
-	<stod id="20000125" lon="-22.583785" lat="63.971673" nafn="Virkjun"/>
-	<stod id="20000034" lon="-22.580261" lat="63.973134" nafn="Fjörheimar"/>
-	<stod id="20000042" lon="-22.575254" lat="63.97147" nafn="Keilisbraut"/>
 	<stod id="20000041" lon="-22.570984" lat="63.969351" nafn="Keilir"/>
 	<stod id="20000128" lon="-22.565779" lat="63.9722" nafn="Bogabraut"/>
-	<stod id="20000129" lon="-22.565537" lat="63.975459" nafn="Grænásbraut"/>
-	<stod id="20000051" lon="-22.557891" lat="63.981577" nafn="Grænás"/>
-	<stod id="20000029" lon="-22.680521" lat="63.933638" nafn="Seljavogur"/>
-	<stod id="20000027" lon="-22.685721" lat="63.935349" nafn="Landnámsbærinn"/>
-	<stod id="20000026" lon="-22.687508" lat="63.934303" nafn="Kirkjuvogur"/>
-	<stod id="20000028" lon="-22.682975" lat="63.933274" nafn="Djúpivogur"/>
-	<stod id="76200004" lon="-14.407615" lat="65.260434" nafn="Egilsstaðir"/>
-	<stod id="76200003" lon="-14.426377" lat="65.282507" nafn="Fellabær"/>
+	<stod id="76200004" lon="-14.407615" lat="65.260434" nafn="Egilsstaðir / Upplýsingamiðstöð"/>
+	<stod id="76200003" lon="-14.426377" lat="65.282507" nafn="Fellabær / Olís"/>
 	<stod id="76200002" lon="-15.116295" lat="65.316661" nafn="Skjöldólfsstaðir"/>
 	<stod id="76200001" lon="-15.507672" lat="65.45917" nafn="Vopnafjörður - Vegamót"/>
 	<stod id="61000005" lon="-16.177911" lat="65.626037" nafn="Jökulsá á Fjöllum"/>
@@ -1255,20 +1193,43 @@
 	<stod id="90000712" lon="-21.930276" lat="64.14943" nafn="Harpa"/>
 	<stod id="90000776" lon="-21.920335" lat="64.146372" nafn="Sæbraut / Vitastígur"/>
 	<stod id="55080003" lon="-20.645" lat="65.381" nafn="Víðigerði"/>
-	<stod id="60000147" lon="-18.076074" lat="65.654311" nafn="Akureyrarflugvöllur"/>
 	<stod id="87200002" lon="-20.411393" lat="64.046013" nafn="Skeiða- og Þjórsárdalsvegur"/>
-	<stod id="82000037" lon="-20.979016" lat="63.937481" nafn="Langholt / Larsensstræti"/>
+	<stod id="82000037" lon="-20.979016" lat="63.937481" nafn="Langholt / Larensstræti"/>
 	<stod id="82000038" lon="-20.978882" lat="63.937487" nafn="Langholt / Larensstræti"/>
-	<stod id="90000782" lon="-21.768345" lat="64.1514" nafn="Korpúlfsstaðavegur / Víkurvegur"/>
-	<stod id="90000783" lon="-21.7685" lat="64.151533" nafn="Korpúlfsstaðavegur / Víkurvegur"/>
 	<stod id="90000780" lon="-21.9018" lat="64.1457" nafn="Borgartún / Nóatún"/>
 	<stod id="90000781" lon="-21.902" lat="64.1458" nafn="Borgartún / Nóatún"/>
-	<stod id="90000777" lon="-21.7407" lat="64.1363" nafn="Mimisbrunnur / Skyggnisbraut"/>
+	<stod id="90000777" lon="-21.7407" lat="64.1363" nafn="Mimisbrunnur / Skyggnistorg"/>
 	<stod id="90000778" lon="-21.735" lat="64.1359" nafn="Skyggnisbraut"/>
 	<stod id="90000779" lon="-21.7459" lat="64.13483" nafn="Mimisbrunnur / Úlfarsbraut"/>
 	<stod id="13001234" lon="-21.907078" lat="64.097887" nafn="Bæjarbraut / Línakur"/>
 	<stod id="90000784" lon="-21.96492" lat="64.146497" nafn="Flyðrugrandi"/>
-	<stod id="52000003" lon="-19.412801" lat="65.8972" nafn="Hofsós"/>
-	<stod id="52000004" lon="-19.112001" lat="65.7328" nafn="Hólar"/>
-	<stod id="87200003" lon="-20.250964" lat="64.042375" nafn="Árnes"/>
+	<stod id="37140004" lon="-23.633555" lat="64.766151" nafn="Arnarstapi"/>
+	<stod id="20000007" lon="-22.551521" lat="63.993969" nafn="Miðstöð"/>
+	<stod id="25040002" lon="-22.651014" lat="64.069799" nafn="Pósthúsið Garði / Garður"/>
+	<stod id="25040005" lon="-22.668548" lat="64.075932" nafn="Nýjaland"/>
+	<stod id="25030001" lon="-22.700544" lat="64.033948" nafn="Íþróttamiðstöðin Sandgerði"/>
+	<stod id="25030002" lon="-22.704308" lat="64.038352" nafn="Varðan"/>
+	<stod id="23000001" lon="-22.435763" lat="63.843765" nafn="Grindavík - Aðalbraut"/>
+	<stod id="25060001" lon="-22.420509" lat="63.96244" nafn="Grindavíkurafleggjari"/>
+	<stod id="20000110" lon="-22.624895" lat="63.997069" nafn="FLE - brottför"/>
+	<stod id="20000025" lon="-22.514284" lat="63.968518" nafn="Tjarnarhverfi"/>
+	<stod id="25060005" lon="-22.357684" lat="63.973609" nafn="Vogaafleggjari"/>
+	<stod id="90000709" lon="-21.928974" lat="64.135909" nafn="LSH / Hringbraut"/>
+	<stod id="25060002" lon="-22.359635" lat="63.975115" nafn="Vogaafleggjari"/>
+	<stod id="20000024" lon="-22.513746" lat="63.969848" nafn="Tjarnarhverfi"/>
+	<stod id="20000109" lon="-22.627511" lat="63.996848" nafn="Kjóavöllur"/>
+	<stod id="90000785" lon="-21.789974" lat="64.123731" nafn="Hestháls"/>
+	<stod id="60000148" lon="-18.087216" lat="65.680112" nafn="Drottningarbraut"/>
+	<stod id="25040009" lon="-22.639762" lat="64.064288" nafn="Vellir"/>
+	<stod id="25040007" lon="-22.657284" lat="64.072153" nafn="Garðvangur"/>
+	<stod id="25040006" lon="-22.657319" lat="64.072065" nafn="Garðvangur"/>
+	<stod id="25040008" lon="-22.639802" lat="64.064251" nafn="Vellir"/>
+	<stod id="20000008" lon="-22.559937" lat="64.000792" nafn="Hringbraut / Norðurtún"/>
+	<stod id="23000002" lon="-22.437826" lat="63.839459" nafn="Lögreglustöðin Grindavík"/>
+	<stod id="20000132" lon="-22.564373" lat="64.004479" nafn="Hringbraut / Melteigur"/>
+	<stod id="20000133" lon="-22.556533" lat="63.998338" nafn="Hringbraut / Knattspyrnuvöllur"/>
+	<stod id="20000130" lon="-22.551514" lat="63.971421" nafn="Skógarbraut"/>
+	<stod id="90000007" lon="-21.933909" lat="64.137942" nafn="Umferðarmiðstöðin"/>
+	<stod id="20000131" lon="-22.551693" lat="63.971433" nafn="Skógarbraut"/>
+	<stod id="20000111" lon="-22.620462" lat="63.997308" nafn="FLE - koma"/>
 </stodvar>

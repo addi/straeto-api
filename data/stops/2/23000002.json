@@ -1,0 +1,20 @@
+{
+  "75": {
+    "route": "88",
+    "last_stop_name": "(Reykjanesbær)",
+    "day_types": [
+      {
+        "day_types": [
+          "5",
+          "4",
+          "6",
+          "2",
+          "3"
+        ],
+        "times": [
+          "07:24"
+        ]
+      }
+    ]
+  }
+}

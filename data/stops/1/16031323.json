@@ -1,14 +1,15 @@
 {
-  "33": {
+  "23": {
     "route": "23",
     "last_stop_name": "Ásgarður",
     "day_types": [
       {
         "day_types": [
-          "2",
           "3",
-          "4",
           "5",
+          "4",
+          "9",
+          "2",
           "6"
         ],
         "times": [

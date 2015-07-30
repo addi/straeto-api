@@ -2611,8 +2611,8 @@
     "name": "Leirvogstunga",
     "long_name": "Leirvogstunga",
     "short_name": "Leirvogstunga",
-    "latitude": 64.183107,
-    "longitude": -21.68257,
+    "latitude": 64.183454,
+    "longitude": -21.682005,
     "id": "16040653"
   },
   {
@@ -3680,14 +3680,6 @@
     "id": "90000165"
   },
   {
-    "name": "Nóatún",
-    "long_name": "Nóatún",
-    "short_name": "Nóatún",
-    "latitude": 64.144011,
-    "longitude": -21.902372,
-    "id": "90000166"
-  },
-  {
     "name": "Hofsvallagata / Hávallagata",
     "long_name": "Hofsvallagata / Hávallagata",
     "short_name": "Hávallagata",
@@ -3800,14 +3792,6 @@
     "id": "90000180"
   },
   {
-    "name": "Nóatún",
-    "long_name": "Nóatún",
-    "short_name": "Nóatún",
-    "latitude": 64.144046,
-    "longitude": -21.902109,
-    "id": "90000181"
-  },
-  {
     "name": "Hótel Cabin",
     "long_name": "Hótel Cabin",
     "short_name": "Hótel Cabin",
@@ -3891,8 +3875,8 @@
     "name": "Straumur / Birtingakvísl",
     "long_name": "Straumur / Birtingakvísl",
     "short_name": "Birtingakvísl",
-    "latitude": 64.123344,
-    "longitude": -21.821933,
+    "latitude": 64.123307,
+    "longitude": -21.822564,
     "id": "90000198"
   },
   {
@@ -4219,8 +4203,8 @@
     "name": "Grensásvegur / Skeifan",
     "long_name": "Grensásvegur / Skeifan",
     "short_name": "Skeifan",
-    "latitude": 64.132383,
-    "longitude": -21.873166,
+    "latitude": 64.133196,
+    "longitude": -21.872544,
     "id": "90000240"
   },
   {
@@ -4712,14 +4696,6 @@
     "id": "90000304"
   },
   {
-    "name": "Fylkisvegur",
-    "long_name": "Fylkisvegur",
-    "short_name": "Fylkisvegur",
-    "latitude": 64.11428,
-    "longitude": -21.790484,
-    "id": "90000305"
-  },
-  {
     "name": "Stórhöfði / Breiðhöfði",
     "long_name": "Stórhöfði / Breiðhöfði",
     "short_name": "Breiðhöfði",
@@ -4758,14 +4734,6 @@
     "latitude": 64.121594,
     "longitude": -21.790839,
     "id": "90000312"
-  },
-  {
-    "name": "Hraunsás",
-    "long_name": "Hraunsás",
-    "short_name": "Hraunsás",
-    "latitude": 64.113179,
-    "longitude": -21.788441,
-    "id": "90000315"
   },
   {
     "name": "Rofabær / Brekkubær",
@@ -5704,9 +5672,9 @@
     "id": "90000443"
   },
   {
-    "name": "Fellaskóli",
-    "long_name": "Fellaskóli",
-    "short_name": "Fellaskóli",
+    "name": "Fellaskóli / Nýlistasafnið",
+    "long_name": "Fellaskóli / Nýlistasafnið",
+    "short_name": "Nýlistasafnið",
     "latitude": 64.101671,
     "longitude": -21.822682,
     "id": "90000444"
@@ -5987,8 +5955,8 @@
     "name": "Kelduskóli",
     "long_name": "Kelduskóli",
     "short_name": "Kelduskóli",
-    "latitude": 64.152653,
-    "longitude": -21.779077,
+    "latitude": 64.152593,
+    "longitude": -21.778546,
     "id": "90000484"
   },
   {
@@ -6288,9 +6256,9 @@
     "id": "90000525"
   },
   {
-    "name": "Fellaskóli",
-    "long_name": "Fellaskóli",
-    "short_name": "Fellaskóli",
+    "name": "Fellaskóli / Nýlistasafnið",
+    "long_name": "Fellaskóli / Nýlistasafnið",
+    "short_name": "Nýlistasafnið",
     "latitude": 64.101775,
     "longitude": -21.82293,
     "id": "90000526"
@@ -7016,6 +6984,14 @@
     "id": "90000760"
   },
   {
+    "name": "Jónsgeisli / Kristnibraut",
+    "long_name": "Jónsgeisli / Kristnibraut",
+    "short_name": "Kristnibraut",
+    "latitude": 64.126533,
+    "longitude": -21.748187,
+    "id": "90000762"
+  },
+  {
     "name": "Reykjavegur",
     "long_name": "Reykjavegur",
     "short_name": "Reykjavegur",
@@ -7158,6 +7134,14 @@
     "latitude": 64.134029,
     "longitude": -21.750167,
     "id": "90000763"
+  },
+  {
+    "name": "Korpúlfsstaðavegur / Barðastaðir",
+    "long_name": "Korpúlfsstaðavegur / Barðastaðir",
+    "short_name": "Barðastaðir",
+    "latitude": 64.155669,
+    "longitude": -21.751715,
+    "id": "90000773"
   },
   {
     "name": "Reykjanesbraut / Vífilsstaðir",
@@ -7411,8 +7395,8 @@
     "name": "Höfn í Hornafirði",
     "long_name": "Höfn í Hornafirði",
     "short_name": "Höfn í Hornafirði",
-    "latitude": 64.259049,
-    "longitude": -15.206203,
+    "latitude": 64.254227,
+    "longitude": -15.207482,
     "id": "77080001"
   },
   {
@@ -7835,8 +7819,8 @@
     "name": "Stykkishólmur - Olís",
     "long_name": "Stykkishólmur - Olís",
     "short_name": "Olís",
-    "latitude": 65.0762,
-    "longitude": -22.725471,
+    "latitude": 65.072023,
+    "longitude": -22.733308,
     "id": "31770002"
   },
   {
@@ -8083,8 +8067,8 @@
     "name": "Ólafsvík",
     "long_name": "Ólafsvík",
     "short_name": "Ólafsvík",
-    "latitude": 64.893744,
-    "longitude": -23.703612,
+    "latitude": 64.893979,
+    "longitude": -23.704382,
     "id": "37140001"
   },
   {
@@ -8102,22 +8086,6 @@
     "latitude": 64.917249,
     "longitude": -23.883747,
     "id": "37140003"
-  },
-  {
-    "name": "Hvammstangi",
-    "long_name": "Hvammstangi",
-    "short_name": "Hvammstangi",
-    "latitude": 65.392146,
-    "longitude": -20.937127,
-    "id": "55080002"
-  },
-  {
-    "name": "Skagaströnd",
-    "long_name": "Skagaströnd",
-    "short_name": "Skagaströnd",
-    "latitude": 65.823313,
-    "longitude": -20.302405,
-    "id": "56110001"
   },
   {
     "name": "Glerárgata / Eiðsvallagata",
@@ -9216,28 +9184,12 @@
     "id": "36091907"
   },
   {
-    "name": "Reykjaneshöll",
-    "long_name": "Reykjaneshöll",
-    "short_name": "Reykjaneshöll",
-    "latitude": 63.994406,
-    "longitude": -22.557015,
-    "id": "20000052"
-  },
-  {
-    "name": "Fjölbraut",
-    "long_name": "Fjölbraut",
-    "short_name": "Fjölbraut",
+    "name": "Fjölbrautaskóli Suðurnesja / FS",
+    "long_name": "Fjölbrautaskóli Suðurnesja / FS",
+    "short_name": "FS",
     "latitude": 63.996435,
     "longitude": -22.562531,
     "id": "20000020"
-  },
-  {
-    "name": "Holtaskóli",
-    "long_name": "Holtaskóli",
-    "short_name": "Holtaskóli",
-    "latitude": 63.99847,
-    "longitude": -22.562761,
-    "id": "20000021"
   },
   {
     "name": "Hringbraut / Norðurtún",
@@ -9248,348 +9200,12 @@
     "id": "20000022"
   },
   {
-    "name": "Aðalgata",
-    "long_name": "Aðalgata",
-    "short_name": "Aðalgata",
-    "latitude": 64.003242,
-    "longitude": -22.564256,
-    "id": "20000067"
-  },
-  {
-    "name": "Baldursgarður",
-    "long_name": "Baldursgarður",
-    "short_name": "Baldursgarður",
-    "latitude": 64.002165,
-    "longitude": -22.570368,
-    "id": "20000061"
-  },
-  {
-    "name": "Vatnsholt",
-    "long_name": "Vatnsholt",
-    "short_name": "Vatnsholt",
-    "latitude": 64.000254,
-    "longitude": -22.576353,
-    "id": "20000060"
-  },
-  {
-    "name": "Álsvellir",
-    "long_name": "Álsvellir",
-    "short_name": "Álsvellir",
-    "latitude": 64.00289,
-    "longitude": -22.57961,
-    "id": "20000036"
-  },
-  {
-    "name": "Heiðargarður",
-    "long_name": "Heiðargarður",
-    "short_name": "Heiðargarður",
-    "latitude": 64.004759,
-    "longitude": -22.57717,
-    "id": "20000100"
-  },
-  {
-    "name": "Heiðarskóli",
-    "long_name": "Heiðarskóli",
-    "short_name": "Heiðarskóli",
-    "latitude": 64.006563,
-    "longitude": -22.575019,
-    "id": "20000101"
-  },
-  {
-    "name": "Heiðarbraut",
-    "long_name": "Heiðarbraut",
-    "short_name": "Heiðarbraut",
-    "latitude": 64.008333,
-    "longitude": -22.572464,
-    "id": "20000066"
-  },
-  {
-    "name": "Heiðarsel",
-    "long_name": "Heiðarsel",
-    "short_name": "Heiðarsel",
-    "latitude": 64.009702,
-    "longitude": -22.575426,
-    "id": "20000063"
-  },
-  {
-    "name": "Heiðarendi",
-    "long_name": "Heiðarendi",
-    "short_name": "Heiðarendi",
-    "latitude": 64.010964,
-    "longitude": -22.575363,
-    "id": "20000064"
-  },
-  {
-    "name": "Vesturgata",
-    "long_name": "Vesturgata",
-    "short_name": "Vesturgata",
-    "latitude": 64.005994,
-    "longitude": -22.564646,
-    "id": "20000069"
-  },
-  {
-    "name": "Fischershús",
-    "long_name": "Fischershús",
-    "short_name": "Fischershús",
-    "latitude": 64.006612,
-    "longitude": -22.55833,
-    "id": "20000078"
-  },
-  {
-    "name": "Gamli bærinn",
-    "long_name": "Gamli bærinn",
-    "short_name": "Gamli bærinn",
-    "latitude": 64.005052,
-    "longitude": -22.556587,
-    "id": "20000080"
-  },
-  {
-    "name": "Vinaminni",
-    "long_name": "Vinaminni",
-    "short_name": "Vinaminni",
-    "latitude": 64.004238,
-    "longitude": -22.558515,
-    "id": "20000077"
-  },
-  {
-    "name": "Hornbjarg",
-    "long_name": "Hornbjarg",
-    "short_name": "Hornbjarg",
-    "latitude": 64.002764,
-    "longitude": -22.558661,
-    "id": "20000073"
-  },
-  {
-    "name": "Myllubakkaskóli",
-    "long_name": "Myllubakkaskóli",
-    "short_name": "Myllubakkaskóli",
-    "latitude": 64.001117,
-    "longitude": -22.556697,
-    "id": "20000072"
-  },
-  {
-    "name": "Hafnargata",
-    "long_name": "Hafnargata",
-    "short_name": "Hafnargata",
-    "latitude": 63.999651,
-    "longitude": -22.549994,
-    "id": "20000103"
-  },
-  {
-    "name": "Stjáni Blái",
-    "long_name": "Stjáni Blái",
-    "short_name": "Stjáni Blái",
-    "latitude": 63.997131,
-    "longitude": -22.549116,
-    "id": "20000082"
-  },
-  {
-    "name": "Krossmói",
-    "long_name": "Krossmói",
-    "short_name": "Krossmói",
-    "latitude": 63.993639,
-    "longitude": -22.549056,
-    "id": "20000058"
-  },
-  {
-    "name": "Nesvellir",
-    "long_name": "Nesvellir",
-    "short_name": "Nesvellir",
-    "latitude": 63.991154,
-    "longitude": -22.549142,
-    "id": "20000010"
-  },
-  {
-    "name": "Hjallavegur",
-    "long_name": "Hjallavegur",
-    "short_name": "Hjallavegur",
-    "latitude": 63.989424,
-    "longitude": -22.550978,
-    "id": "20000057"
-  },
-  {
-    "name": "Ólafslundur",
-    "long_name": "Ólafslundur",
-    "short_name": "Ólafslundur",
-    "latitude": 63.990053,
-    "longitude": -22.554063,
-    "id": "20000053"
-  },
-  {
-    "name": "Reykjavíkurtorg",
-    "long_name": "Reykjavíkurtorg",
-    "short_name": "Reykjavíkurtorg",
-    "latitude": 63.99498,
-    "longitude": -22.550085,
-    "id": "20000059"
-  },
-  {
     "name": "Njarðvíkurtorg",
     "long_name": "Njarðvíkurtorg",
     "short_name": "Njarðvíkurtorg",
     "latitude": 63.988328,
     "longitude": -22.548869,
     "id": "20000013"
-  },
-  {
-    "name": "Bolafótur",
-    "long_name": "Bolafótur",
-    "short_name": "Bolafótur",
-    "latitude": 63.985702,
-    "longitude": -22.549317,
-    "id": "20000011"
-  },
-  {
-    "name": "Steinás",
-    "long_name": "Steinás",
-    "short_name": "Steinás",
-    "latitude": 63.977193,
-    "longitude": -22.547502,
-    "id": "20000012"
-  },
-  {
-    "name": "Fitjar",
-    "long_name": "Fitjar",
-    "short_name": "Fitjar",
-    "latitude": 63.973625,
-    "longitude": -22.54305,
-    "id": "20000003"
-  },
-  {
-    "name": "Stekkjarkot",
-    "long_name": "Stekkjarkot",
-    "short_name": "Stekkjarkot",
-    "latitude": 63.971988,
-    "longitude": -22.530065,
-    "id": "20000015"
-  },
-  {
-    "name": "Stekkjargata",
-    "long_name": "Stekkjargata",
-    "short_name": "Stekkjargata",
-    "latitude": 63.973027,
-    "longitude": -22.522569,
-    "id": "20000087"
-  },
-  {
-    "name": "Akurskóli",
-    "long_name": "Akurskóli",
-    "short_name": "Akurskóli",
-    "latitude": 63.974372,
-    "longitude": -22.512978,
-    "id": "20000090"
-  },
-  {
-    "name": "Spóatjörn",
-    "long_name": "Spóatjörn",
-    "short_name": "Spóatjörn",
-    "latitude": 63.97499,
-    "longitude": -22.505276,
-    "id": "20000092"
-  },
-  {
-    "name": "Hafdalur",
-    "long_name": "Hafdalur",
-    "short_name": "Hafdalur",
-    "latitude": 63.974385,
-    "longitude": -22.50035,
-    "id": "20000094"
-  },
-  {
-    "name": "Unnardalur",
-    "long_name": "Unnardalur",
-    "short_name": "Unnardalur",
-    "latitude": 63.972477,
-    "longitude": -22.495793,
-    "id": "20000095"
-  },
-  {
-    "name": "Aspardalur",
-    "long_name": "Aspardalur",
-    "short_name": "Aspardalur",
-    "latitude": 63.97101,
-    "longitude": -22.490074,
-    "id": "20000096"
-  },
-  {
-    "name": "Furudalur",
-    "long_name": "Furudalur",
-    "short_name": "Furudalur",
-    "latitude": 63.97115,
-    "longitude": -22.485729,
-    "id": "20000097"
-  },
-  {
-    "name": "Beykidalur",
-    "long_name": "Beykidalur",
-    "short_name": "Beykidalur",
-    "latitude": 63.968528,
-    "longitude": -22.490686,
-    "id": "20000116"
-  },
-  {
-    "name": "Engjadalur",
-    "long_name": "Engjadalur",
-    "short_name": "Engjadalur",
-    "latitude": 63.96928,
-    "longitude": -22.500377,
-    "id": "20000117"
-  },
-  {
-    "name": "Urðarbraut",
-    "long_name": "Urðarbraut",
-    "short_name": "Urðarbraut",
-    "latitude": 63.970337,
-    "longitude": -22.505195,
-    "id": "20000091"
-  },
-  {
-    "name": "Kambur",
-    "long_name": "Kambur",
-    "short_name": "Kambur",
-    "latitude": 63.972228,
-    "longitude": -22.511714,
-    "id": "20000089"
-  },
-  {
-    "name": "Akurskóli",
-    "long_name": "Akurskóli",
-    "short_name": "Akurskóli",
-    "latitude": 63.974507,
-    "longitude": -22.512817,
-    "id": "20000118"
-  },
-  {
-    "name": "Stekkjarkot",
-    "long_name": "Stekkjarkot",
-    "short_name": "Stekkjarkot",
-    "latitude": 63.972134,
-    "longitude": -22.530116,
-    "id": "20000014"
-  },
-  {
-    "name": "Fitjar",
-    "long_name": "Fitjar",
-    "short_name": "Fitjar",
-    "latitude": 63.973935,
-    "longitude": -22.543178,
-    "id": "20000006"
-  },
-  {
-    "name": "Steinás",
-    "long_name": "Steinás",
-    "short_name": "Steinás",
-    "latitude": 63.977047,
-    "longitude": -22.547051,
-    "id": "20000016"
-  },
-  {
-    "name": "Bolafótur",
-    "long_name": "Bolafótur",
-    "short_name": "Bolafótur",
-    "latitude": 63.985411,
-    "longitude": -22.549051,
-    "id": "20000017"
   },
   {
     "name": "Njarðvíkurtorg",
@@ -9616,22 +9232,6 @@
     "id": "13001362"
   },
   {
-    "name": "Grænás",
-    "long_name": "Grænás",
-    "short_name": "Grænás",
-    "latitude": 63.981447,
-    "longitude": -22.558577,
-    "id": "20000099"
-  },
-  {
-    "name": "Grænásbraut",
-    "long_name": "Grænásbraut",
-    "short_name": "Grænásbraut",
-    "latitude": 63.975469,
-    "longitude": -22.565975,
-    "id": "20000047"
-  },
-  {
     "name": "Bogabraut",
     "long_name": "Bogabraut",
     "short_name": "Bogabraut",
@@ -9640,60 +9240,12 @@
     "id": "20000045"
   },
   {
-    "name": "Skógartorg",
-    "long_name": "Skógartorg",
-    "short_name": "Skógartorg",
-    "latitude": 63.971999,
-    "longitude": -22.558921,
-    "id": "20000049"
-  },
-  {
     "name": "Keilir",
     "long_name": "Keilir",
     "short_name": "Keilir",
     "latitude": 63.96946,
     "longitude": -22.571307,
     "id": "20000098"
-  },
-  {
-    "name": "Eldey",
-    "long_name": "Eldey",
-    "short_name": "Eldey",
-    "latitude": 63.967084,
-    "longitude": -22.581456,
-    "id": "20000033"
-  },
-  {
-    "name": "Háaleitisskóli",
-    "long_name": "Háaleitisskóli",
-    "short_name": "Háaleitisskóli",
-    "latitude": 63.96803,
-    "longitude": -22.589808,
-    "id": "20000031"
-  },
-  {
-    "name": "Virkjun",
-    "long_name": "Virkjun",
-    "short_name": "Virkjun",
-    "latitude": 63.971673,
-    "longitude": -22.583785,
-    "id": "20000125"
-  },
-  {
-    "name": "Fjörheimar",
-    "long_name": "Fjörheimar",
-    "short_name": "Fjörheimar",
-    "latitude": 63.973134,
-    "longitude": -22.580261,
-    "id": "20000034"
-  },
-  {
-    "name": "Keilisbraut",
-    "long_name": "Keilisbraut",
-    "short_name": "Keilisbraut",
-    "latitude": 63.97147,
-    "longitude": -22.575254,
-    "id": "20000042"
   },
   {
     "name": "Keilir",
@@ -9712,65 +9264,17 @@
     "id": "20000128"
   },
   {
-    "name": "Grænásbraut",
-    "long_name": "Grænásbraut",
-    "short_name": "Grænásbraut",
-    "latitude": 63.975459,
-    "longitude": -22.565537,
-    "id": "20000129"
-  },
-  {
-    "name": "Grænás",
-    "long_name": "Grænás",
-    "short_name": "Grænás",
-    "latitude": 63.981577,
-    "longitude": -22.557891,
-    "id": "20000051"
-  },
-  {
-    "name": "Seljavogur",
-    "long_name": "Seljavogur",
-    "short_name": "Seljavogur",
-    "latitude": 63.933638,
-    "longitude": -22.680521,
-    "id": "20000029"
-  },
-  {
-    "name": "Landnámsbærinn",
-    "long_name": "Landnámsbærinn",
-    "short_name": "Landnámsbærinn",
-    "latitude": 63.935349,
-    "longitude": -22.685721,
-    "id": "20000027"
-  },
-  {
-    "name": "Kirkjuvogur",
-    "long_name": "Kirkjuvogur",
-    "short_name": "Kirkjuvogur",
-    "latitude": 63.934303,
-    "longitude": -22.687508,
-    "id": "20000026"
-  },
-  {
-    "name": "Djúpivogur",
-    "long_name": "Djúpivogur",
-    "short_name": "Djúpivogur",
-    "latitude": 63.933274,
-    "longitude": -22.682975,
-    "id": "20000028"
-  },
-  {
-    "name": "Egilsstaðir",
-    "long_name": "Egilsstaðir",
-    "short_name": "Egilsstaðir",
+    "name": "Egilsstaðir / Upplýsingamiðstöð",
+    "long_name": "Egilsstaðir / Upplýsingamiðstöð",
+    "short_name": "Upplýsingamiðstöð",
     "latitude": 65.260434,
     "longitude": -14.407615,
     "id": "76200004"
   },
   {
-    "name": "Fellabær",
-    "long_name": "Fellabær",
-    "short_name": "Fellabær",
+    "name": "Fellabær / Olís",
+    "long_name": "Fellabær / Olís",
+    "short_name": "Olís",
     "latitude": 65.282507,
     "longitude": -14.426377,
     "id": "76200003"
@@ -10048,14 +9552,6 @@
     "id": "55080003"
   },
   {
-    "name": "Akureyrarflugvöllur",
-    "long_name": "Akureyrarflugvöllur",
-    "short_name": "Akureyrarflugvöllur",
-    "latitude": 65.654311,
-    "longitude": -18.076074,
-    "id": "60000147"
-  },
-  {
     "name": "Skeiða- og Þjórsárdalsvegur",
     "long_name": "Skeiða- og Þjórsárdalsvegur",
     "short_name": "Skeiða- og Þjórsárdalsvegur",
@@ -10064,9 +9560,9 @@
     "id": "87200002"
   },
   {
-    "name": "Langholt / Larsensstræti",
-    "long_name": "Langholt / Larsensstræti",
-    "short_name": "Larsensstræti",
+    "name": "Langholt / Larensstræti",
+    "long_name": "Langholt / Larensstræti",
+    "short_name": "Larensstræti",
     "latitude": 63.937481,
     "longitude": -20.979016,
     "id": "82000037"
@@ -10078,22 +9574,6 @@
     "latitude": 63.937487,
     "longitude": -20.978882,
     "id": "82000038"
-  },
-  {
-    "name": "Korpúlfsstaðavegur / Víkurvegur",
-    "long_name": "Korpúlfsstaðavegur / Víkurvegur",
-    "short_name": "Víkurvegur",
-    "latitude": 64.1514,
-    "longitude": -21.768345,
-    "id": "90000782"
-  },
-  {
-    "name": "Korpúlfsstaðavegur / Víkurvegur",
-    "long_name": "Korpúlfsstaðavegur / Víkurvegur",
-    "short_name": "Víkurvegur",
-    "latitude": 64.151533,
-    "longitude": -21.7685,
-    "id": "90000783"
   },
   {
     "name": "Borgartún / Nóatún",
@@ -10112,9 +9592,9 @@
     "id": "90000781"
   },
   {
-    "name": "Mimisbrunnur / Skyggnisbraut",
-    "long_name": "Mimisbrunnur / Skyggnisbraut",
-    "short_name": "Skyggnisbraut",
+    "name": "Mimisbrunnur / Skyggnistorg",
+    "long_name": "Mimisbrunnur / Skyggnistorg",
+    "short_name": "Skyggnistorg",
     "latitude": 64.1363,
     "longitude": -21.7407,
     "id": "90000777"
@@ -10152,27 +9632,235 @@
     "id": "90000784"
   },
   {
-    "name": "Hofsós",
-    "long_name": "Hofsós",
-    "short_name": "Hofsós",
-    "latitude": 65.8972,
-    "longitude": -19.412801,
-    "id": "52000003"
+    "name": "Arnarstapi",
+    "long_name": "Arnarstapi",
+    "short_name": "Arnarstapi",
+    "latitude": 64.766151,
+    "longitude": -23.633555,
+    "id": "37140004"
   },
   {
-    "name": "Hólar",
-    "long_name": "Hólar",
-    "short_name": "Hólar",
-    "latitude": 65.7328,
-    "longitude": -19.112001,
-    "id": "52000004"
+    "name": "Miðstöð",
+    "long_name": "Miðstöð",
+    "short_name": "Miðstöð",
+    "latitude": 63.993969,
+    "longitude": -22.551521,
+    "id": "20000007"
   },
   {
-    "name": "Árnes",
-    "long_name": "Árnes",
-    "short_name": "Árnes",
-    "latitude": 64.042375,
-    "longitude": -20.250964,
-    "id": "87200003"
+    "name": "Pósthúsið Garði / Garður",
+    "long_name": "Pósthúsið Garði / Garður",
+    "short_name": "Garður",
+    "latitude": 64.069799,
+    "longitude": -22.651014,
+    "id": "25040002"
+  },
+  {
+    "name": "Nýjaland",
+    "long_name": "Nýjaland",
+    "short_name": "Nýjaland",
+    "latitude": 64.075932,
+    "longitude": -22.668548,
+    "id": "25040005"
+  },
+  {
+    "name": "Íþróttamiðstöðin Sandgerði",
+    "long_name": "Íþróttamiðstöðin Sandgerði",
+    "short_name": "Íþróttamiðstöðin Sandgerði",
+    "latitude": 64.033948,
+    "longitude": -22.700544,
+    "id": "25030001"
+  },
+  {
+    "name": "Varðan",
+    "long_name": "Varðan",
+    "short_name": "Varðan",
+    "latitude": 64.038352,
+    "longitude": -22.704308,
+    "id": "25030002"
+  },
+  {
+    "name": "Grindavík - Aðalbraut",
+    "long_name": "Grindavík - Aðalbraut",
+    "short_name": "Aðalbraut",
+    "latitude": 63.843765,
+    "longitude": -22.435763,
+    "id": "23000001"
+  },
+  {
+    "name": "Grindavíkurafleggjari",
+    "long_name": "Grindavíkurafleggjari",
+    "short_name": "Grindavíkurafleggjari",
+    "latitude": 63.96244,
+    "longitude": -22.420509,
+    "id": "25060001"
+  },
+  {
+    "name": "FLE - brottför",
+    "long_name": "FLE - brottför",
+    "short_name": "brottför",
+    "latitude": 63.997069,
+    "longitude": -22.624895,
+    "id": "20000110"
+  },
+  {
+    "name": "Tjarnarhverfi",
+    "long_name": "Tjarnarhverfi",
+    "short_name": "Tjarnarhverfi",
+    "latitude": 63.968518,
+    "longitude": -22.514284,
+    "id": "20000025"
+  },
+  {
+    "name": "Vogaafleggjari",
+    "long_name": "Vogaafleggjari",
+    "short_name": "Vogaafleggjari",
+    "latitude": 63.973609,
+    "longitude": -22.357684,
+    "id": "25060005"
+  },
+  {
+    "name": "LSH / Hringbraut",
+    "long_name": "LSH / Hringbraut",
+    "short_name": "Hringbraut",
+    "latitude": 64.135909,
+    "longitude": -21.928974,
+    "id": "90000709"
+  },
+  {
+    "name": "Vogaafleggjari",
+    "long_name": "Vogaafleggjari",
+    "short_name": "Vogaafleggjari",
+    "latitude": 63.975115,
+    "longitude": -22.359635,
+    "id": "25060002"
+  },
+  {
+    "name": "Tjarnarhverfi",
+    "long_name": "Tjarnarhverfi",
+    "short_name": "Tjarnarhverfi",
+    "latitude": 63.969848,
+    "longitude": -22.513746,
+    "id": "20000024"
+  },
+  {
+    "name": "Kjóavöllur",
+    "long_name": "Kjóavöllur",
+    "short_name": "Kjóavöllur",
+    "latitude": 63.996848,
+    "longitude": -22.627511,
+    "id": "20000109"
+  },
+  {
+    "name": "Hestháls",
+    "long_name": "Hestháls",
+    "short_name": "Hestháls",
+    "latitude": 64.123731,
+    "longitude": -21.789974,
+    "id": "90000785"
+  },
+  {
+    "name": "Drottningarbraut",
+    "long_name": "Drottningarbraut",
+    "short_name": "Drottningarbraut",
+    "latitude": 65.680112,
+    "longitude": -18.087216,
+    "id": "60000148"
+  },
+  {
+    "name": "Vellir",
+    "long_name": "Vellir",
+    "short_name": "Vellir",
+    "latitude": 64.064288,
+    "longitude": -22.639762,
+    "id": "25040009"
+  },
+  {
+    "name": "Garðvangur",
+    "long_name": "Garðvangur",
+    "short_name": "Garðvangur",
+    "latitude": 64.072153,
+    "longitude": -22.657284,
+    "id": "25040007"
+  },
+  {
+    "name": "Garðvangur",
+    "long_name": "Garðvangur",
+    "short_name": "Garðvangur",
+    "latitude": 64.072065,
+    "longitude": -22.657319,
+    "id": "25040006"
+  },
+  {
+    "name": "Vellir",
+    "long_name": "Vellir",
+    "short_name": "Vellir",
+    "latitude": 64.064251,
+    "longitude": -22.639802,
+    "id": "25040008"
+  },
+  {
+    "name": "Hringbraut / Norðurtún",
+    "long_name": "Hringbraut / Norðurtún",
+    "short_name": "Norðurtún",
+    "latitude": 64.000792,
+    "longitude": -22.559937,
+    "id": "20000008"
+  },
+  {
+    "name": "Lögreglustöðin Grindavík",
+    "long_name": "Lögreglustöðin Grindavík",
+    "short_name": "Lögreglustöðin Grindavík",
+    "latitude": 63.839459,
+    "longitude": -22.437826,
+    "id": "23000002"
+  },
+  {
+    "name": "Hringbraut / Melteigur",
+    "long_name": "Hringbraut / Melteigur",
+    "short_name": "Melteigur",
+    "latitude": 64.004479,
+    "longitude": -22.564373,
+    "id": "20000132"
+  },
+  {
+    "name": "Hringbraut / Knattspyrnuvöllur",
+    "long_name": "Hringbraut / Knattspyrnuvöllur",
+    "short_name": "Knattspyrnuvöllur",
+    "latitude": 63.998338,
+    "longitude": -22.556533,
+    "id": "20000133"
+  },
+  {
+    "name": "Skógarbraut",
+    "long_name": "Skógarbraut",
+    "short_name": "Skógarbraut",
+    "latitude": 63.971421,
+    "longitude": -22.551514,
+    "id": "20000130"
+  },
+  {
+    "name": "Umferðarmiðstöðin",
+    "long_name": "Umferðarmiðstöðin",
+    "short_name": "Umferðarmiðstöðin",
+    "latitude": 64.137942,
+    "longitude": -21.933909,
+    "id": "90000007"
+  },
+  {
+    "name": "Skógarbraut",
+    "long_name": "Skógarbraut",
+    "short_name": "Skógarbraut",
+    "latitude": 63.971433,
+    "longitude": -22.551693,
+    "id": "20000131"
+  },
+  {
+    "name": "FLE - koma",
+    "long_name": "FLE - koma",
+    "short_name": "koma",
+    "latitude": 63.997308,
+    "longitude": -22.620462,
+    "id": "20000111"
   }
 ]

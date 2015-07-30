@@ -1,5 +1,31 @@
 {
-  "69": {
+  "64": {
+    "route": "72",
+    "last_stop_name": "Selfoss",
+    "day_types": [
+      {
+        "day_types": [
+          "6",
+          "2",
+          "4"
+        ],
+        "times": [
+          "16:38"
+        ]
+      },
+      {
+        "day_types": [
+          "5",
+          "3"
+        ],
+        "times": [
+          "16:38",
+          "18:23"
+        ]
+      }
+    ]
+  },
+  "65": {
     "route": "73",
     "last_stop_name": "Selfoss",
     "day_types": [
@@ -16,37 +42,11 @@
       {
         "day_types": [
           "2",
-          "4",
-          "6"
+          "6",
+          "4"
         ],
         "times": [
           "07:27"
-        ]
-      }
-    ]
-  },
-  "68": {
-    "route": "72",
-    "last_stop_name": "Selfoss",
-    "day_types": [
-      {
-        "day_types": [
-          "3",
-          "5"
-        ],
-        "times": [
-          "16:38",
-          "18:23"
-        ]
-      },
-      {
-        "day_types": [
-          "2",
-          "4",
-          "6"
-        ],
-        "times": [
-          "16:38"
         ]
       }
     ]

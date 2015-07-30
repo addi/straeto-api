@@ -1,14 +1,15 @@
 {
-  "49": {
+  "41": {
     "route": "33",
     "last_stop_name": "Fjörður",
     "day_types": [
       {
         "day_types": [
-          "2",
           "3",
           "4",
           "5",
+          "9",
+          "2",
           "6"
         ],
         "times": [
